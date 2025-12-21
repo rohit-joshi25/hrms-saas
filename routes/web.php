@@ -16,6 +16,7 @@ Route::get('/', function () {
 Route::get('/documentation', function () {
     return view('documentation');
 })->name('project-docs');
+
 Route::get('/welcome', function () {
     return redirect('/');
 })->name('welcome');
