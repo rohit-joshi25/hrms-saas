@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HRMS SaaS Presentation - Smart School Technologies</title>
+    <title>School ERP Presentation - Smart School System</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -75,15 +75,15 @@
                 <div class="flex items-center space-x-3">
                     <div
                         class="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                        <i class="fas fa-users text-white text-sm"></i>
+                        <i class="fas fa-graduation-cap text-white text-sm"></i>
                     </div>
-                    <span class="text-xl font-bold">Smart School HRMS</span>
+                    <span class="text-xl font-bold">Smart School ERP</span>
                 </div>
                 <div class="hidden md:flex items-center space-x-6">
                     <a href="#overview" class="text-gray-300 hover:text-white transition-colors">Overview</a>
                     <a href="#features" class="text-gray-300 hover:text-white transition-colors">Features</a>
                     <a href="#subscription" class="text-gray-300 hover:text-white transition-colors">Pricing</a>
-                    <a href="#success" class="text-gray-300 hover:text-white transition-colors">Success Stories</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors">Testimonials</a>
                     <a href="#roadmap" class="text-gray-300 hover:text-white transition-colors">Roadmap</a>
                     <a href="{{ route('project-docs') }}"
                         class="text-gray-300 hover:text-white transition-colors">Project Documentation</a>
@@ -114,14 +114,13 @@
             <div class="opacity-0 animate-fade-in" style="animation-delay: 0.2s;">
                 <h1
                     class="text-5xl md:text-7xl font-extrabold mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                    HRMS SaaS
+                    Smart School ERP: The Future of Campus Management
                 </h1>
                 <p class="text-2xl md:text-3xl font-light mb-8 text-gray-300">
-                    Next Generation Workforce Management
+                    Your Integrated Multi-Branch Campus Solution
                 </p>
                 <p class="text-lg md:text-xl mb-12 text-gray-400 max-w-3xl mx-auto">
-                    Revolutionizing human resource management with AI-powered automation,
-                    intelligent analytics, and seamless multi-tenant architecture.
+                    Transforming educational institutions with a comprehensive, AI-powered ERP platform that unifies academic, administrative, and financial operations across multiple branches and academic sessions. Experience seamless management and data-driven insights.
                 </p>
             </div>
 
@@ -164,97 +163,17 @@
         </div>
     </section>
 
-    <!-- Industry Recognition Section -->
-    <section class="py-20 bg-gradient-to-r from-indigo-900/30 to-purple-900/30">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16" data-aos="fade-up">
-                <h2
-                    class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-                    Industry Recognition
-                </h2>
-                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                    Trusted by industry leaders and recognized by top technology organizations worldwide
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-                <!-- Awards -->
-                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
-                    <div
-                        class="w-16 h-16 bg-gradient-to-r from-yellow-500 to-orange-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-trophy text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Best HR Tech 2024</h3>
-                    <p class="text-gray-400 text-sm">HR Technology Awards</p>
-                </div>
-
-                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
-                    <div
-                        class="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-star text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">4.9/5 Rating</h3>
-                    <p class="text-gray-400 text-sm">G2 & Capterra Reviews</p>
-                </div>
-
-                <div class="text-center" data-aos="fade-up" data-aos-delay="300">
-                    <div
-                        class="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-shield-alt text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">SOC 2 Certified</h3>
-                    <p class="text-gray-400 text-sm">Enterprise Security</p>
-                </div>
-
-                <div class="text-center" data-aos="fade-up" data-aos-delay="400">
-                    <div
-                        class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-rocket text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Fastest Growing</h3>
-                    <p class="text-gray-400 text-sm">SaaS HR Platform</p>
-                </div>
-            </div>
-
-            <!-- Client Logos -->
-            <div class="text-center mb-8" data-aos="fade-up">
-                <p class="text-gray-400 mb-8">Trusted by leading organizations worldwide</p>
-                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center opacity-60">
-                    <div class="text-center">
-                        <div class="text-2xl font-bold text-gray-500">Microsoft</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-2xl font-bold text-gray-500">Google</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-2xl font-bold text-gray-500">Amazon</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-2xl font-bold text-gray-500">Tesla</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-2xl font-bold text-gray-500">Netflix</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-2xl font-bold text-gray-500">Spotify</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Project Overview Section -->
     <section id="overview" class="py-20 bg-black/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16" data-aos="fade-up">
-                <h2
-                    class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                    Project Overview
-                </h2>
-                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                    Understanding the vision behind Smart School HRMS and why we're building the future of workforce
-                    management
-                </p>
+                    <h2
+                        class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                        Project Overview
+                    </h2>
+                    <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                        Understanding the vision behind Smart School ERP and our commitment to transforming education management
+                    </p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -266,15 +185,13 @@
                                 class="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center mr-4">
                                 <i class="fas fa-lightbulb text-white text-xl"></i>
                             </div>
-                            <h3 class="text-2xl font-bold">What is HRMS?</h3>
+                            <h3 class="text-2xl font-bold">What is ERP?</h3>
                         </div>
                         <p class="text-gray-300 leading-relaxed">
-                            Human Resource Management System (HRMS) is a comprehensive software solution that
-                            streamlines
-                            HR processes, from recruitment and onboarding to performance management and payroll. Our
-                            SaaS
-                            platform takes this concept to the next level with AI integration and multi-tenant
-                            architecture.
+                            Enterprise Resource Planning (ERP) in an educational context is a comprehensive system that
+                            manages all aspects of a school's operations, from academic management and student information
+                            to financial processes, human resources, and facilities. Smart School ERP integrates these diverse
+                            functions into a single, cohesive, multi-tenant platform.
                         </p>
                     </div>
                 </div>
@@ -290,11 +207,10 @@
                             <h3 class="text-2xl font-bold">Why Smart School Technologies?</h3>
                         </div>
                         <p class="text-gray-300 leading-relaxed">
-                            Smart School Technologies is pioneering the future of HR technology by combining artificial
-                            intelligence,
-                            machine learning, and cloud-native architecture. We believe in automating repetitive tasks,
-                            providing intelligent insights, and enabling HR professionals to focus on strategic
-                            initiatives.
+                            Smart School Technologies is dedicated to empowering educational institutions with cutting-edge
+                            technology. Our ERP system is designed to automate routine tasks, provide actionable insights,
+                            and foster a collaborative environment for administrators, teachers, students, and parents.
+                            With multi-branch support and advanced AI features, we are revolutionizing campus management.
                         </p>
                     </div>
                 </div>
@@ -310,8 +226,8 @@
                             <h4 class="text-xl font-bold">Our Mission</h4>
                         </div>
                         <p class="text-gray-300">
-                            To democratize advanced HR technology and make intelligent workforce management accessible
-                            to organizations of all sizes through our innovative SaaS platform.
+                            To democratize advanced education management technology and make intelligent campus operations accessible
+                            to institutions of all sizes through our innovative SaaS platform, featuring multi-branch capabilities and AI integration.
                         </p>
                     </div>
                     <div
@@ -321,8 +237,8 @@
                             <h4 class="text-xl font-bold">Our Vision</h4>
                         </div>
                         <p class="text-gray-300">
-                            To become the world's leading AI-powered HRMS platform, transforming how organizations
-                            manage their most valuable asset - their people.
+                            To become the world's leading ERP platform for educational institutions, transforming how schools
+                            manage their most valuable assets - their students and staff - through continuous innovation and a focus on data-driven excellence.
                         </p>
                     </div>
                 </div>
@@ -339,168 +255,164 @@
                     Comprehensive Feature Set
                 </h2>
                 <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                    Everything you need to manage your workforce efficiently, powered by cutting-edge AI technology
+                    Empower your educational institution with a complete suite of modules for seamless management
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Employee Management -->
+                <!-- Student Management -->
                 <div class="group" data-aos="fade-up" data-aos-delay="100">
                     <div
                         class="bg-gradient-to-br from-blue-900/30 to-indigo-900/30 p-6 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-blue-500/50 transition-all duration-300 h-full">
                         <div
                             class="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                            <i class="fas fa-users text-white text-2xl"></i>
+                            <i class="fas fa-user-graduate text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">Employee Management</h3>
-                        <p class="text-gray-400 mb-4">Complete employee lifecycle management from onboarding to
-                            offboarding</p>
+                        <h3 class="text-xl font-bold mb-3">Student & Admission Management</h3>
+                        <p class="text-gray-400 mb-4">Comprehensive student lifecycle management from enrollment to alumni.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Employee Database</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Onboarding Workflows</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Document Management</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Role-based Access</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Customizable Admission Forms & Workflow</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Detailed Student Profiles & Health Records</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Digital ID Card Generation with QR/Barcode</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Academic Promotions & Alumni Tracking</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Attendance & Leave -->
+                <!-- Academic Management -->
                 <div class="group" data-aos="fade-up" data-aos-delay="200">
                     <div
                         class="bg-gradient-to-br from-green-900/30 to-teal-900/30 p-6 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-green-500/50 transition-all duration-300 h-full">
                         <div
                             class="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                            <i class="fas fa-clock text-white text-2xl"></i>
+                            <i class="fas fa-book-open text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">Attendance & Leave</h3>
-                        <p class="text-gray-400 mb-4">Smart time tracking and automated leave management system</p>
+                        <h3 class="text-xl font-bold mb-3">Academic Management</h3>
+                        <p class="text-gray-400 mb-4">Streamlined class, subject, and examination processes.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Biometric Integration</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Shift Management</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Leave Policies</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Overtime Calculation</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Multi-level Class, Section & Subject Management</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Dynamic Timetable & Homework Assignment</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Configurable Exam Schedules & Automated Marks Entry</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Centralized Study Materials & Resource Sharing</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Payroll -->
+                <!-- Fee & Financial Management -->
                 <div class="group" data-aos="fade-up" data-aos-delay="300">
                     <div
                         class="bg-gradient-to-br from-yellow-900/30 to-orange-900/30 p-6 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-yellow-500/50 transition-all duration-300 h-full">
                         <div
                             class="w-16 h-16 bg-gradient-to-r from-yellow-500 to-orange-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                            <i class="fas fa-dollar-sign text-white text-2xl"></i>
+                            <i class="fas fa-wallet text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">Payroll Management</h3>
-                        <p class="text-gray-400 mb-4">Automated payroll processing with tax compliance and reporting</p>
+                        <h3 class="text-xl font-bold mb-3">Fee & Financial Management</h3>
+                        <p class="text-gray-400 mb-4">Automated fee collection, expense tracking, and robust reporting.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Salary Calculation</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Tax Management</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Payslip Generation</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Compliance Reports</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Flexible Fee Structures & Auto-allocations</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Integrated Online Payment Gateways (Stripe, Razorpay)</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Invoicing, Receipts & Due Date Reminders</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Comprehensive Income, Expense & Payroll Management</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Performance -->
+                <!-- Staff & Payroll Management -->
                 <div class="group" data-aos="fade-up" data-aos-delay="400">
                     <div
                         class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 p-6 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-purple-500/50 transition-all duration-300 h-full">
                         <div
                             class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                            <i class="fas fa-chart-line text-white text-2xl"></i>
+                            <i class="fas fa-chalkboard-teacher text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">Performance Management</h3>
-                        <p class="text-gray-400 mb-4">360-degree performance reviews with goal tracking and analytics
-                        </p>
+                        <h3 class="text-xl font-bold mb-3">Staff & Payroll Management</h3>
+                        <p class="text-gray-400 mb-4">Efficiently manage all school staff, their attendance, and salaries.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>KPI Tracking</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Review Cycles</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Goal Management</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Feedback System</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Centralized Staff Profiles & Role-based Access</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Integrated Teacher & Employee Attendance Tracking</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Customizable Salary Templates & Payslip Generation</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Leave Management System</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Recruitment -->
+                <!-- Transport Management -->
                 <div class="group" data-aos="fade-up" data-aos-delay="500">
                     <div
                         class="bg-gradient-to-br from-red-900/30 to-pink-900/30 p-6 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-red-500/50 transition-all duration-300 h-full">
                         <div
                             class="w-16 h-16 bg-gradient-to-r from-red-500 to-pink-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                            <i class="fas fa-user-plus text-white text-2xl"></i>
+                            <i class="fas fa-bus text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">Recruitment & Hiring</h3>
-                        <p class="text-gray-400 mb-4">AI-powered recruitment with candidate tracking and interview
-                            management</p>
+                        <h3 class="text-xl font-bold mb-3">Transport Management</h3>
+                        <p class="text-gray-400 mb-4">Optimize school transportation with route planning and vehicle tracking.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Job Posting</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Resume Parsing</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Interview Scheduling</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Candidate Pipeline</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Comprehensive Vehicle & Driver Management</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Intelligent Route Planning & Stop Management</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Seamless Student Transport Allocation</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Transport Fee Generation & Reporting</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- AI Features -->
+                <!-- Hostel Management -->
                 <div class="group" data-aos="fade-up" data-aos-delay="600">
                     <div
                         class="bg-gradient-to-br from-indigo-900/30 to-purple-900/30 p-6 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-indigo-500/50 transition-all duration-300 h-full">
                         <div
                             class="w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                            <i class="fas fa-robot text-white text-2xl"></i>
+                            <i class="fas fa-hotel text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">AI-Powered Features</h3>
-                        <p class="text-gray-400 mb-4">Intelligent automation and predictive analytics for better
-                            decisions</p>
+                        <h3 class="text-xl font-bold mb-3">Hostel & Accommodation</h3>
+                        <p class="text-gray-400 mb-4">Efficiently manage student housing and hostel facilities.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Smart Chatbot</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Resume Analysis</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Predictive Analytics</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Workflows</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Multi-building Hostel & Room Configuration</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Efficient Student Room Allocation & Vacancy Tracking</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Hostel Fee Generation & Billing</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Visitor & Mess Management</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Analytics & Reporting -->
+                <!-- Inventory Management -->
                 <div class="group" data-aos="fade-up" data-aos-delay="700">
                     <div
                         class="bg-gradient-to-br from-cyan-900/30 to-blue-900/30 p-6 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-cyan-500/50 transition-all duration-300 h-full">
                         <div
                             class="w-16 h-16 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                            <i class="fas fa-chart-bar text-white text-2xl"></i>
+                            <i class="fas fa-warehouse text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">Advanced Analytics</h3>
-                        <p class="text-gray-400 mb-4">Real-time insights and comprehensive reporting dashboards</p>
+                        <h3 class="text-xl font-bold mb-3">Inventory & Asset Management</h3>
+                        <p class="text-gray-400 mb-4">Track and manage school assets, supplies, and stock levels.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Executive Dashboards</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Custom Reports</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Data Visualization</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Trend Analysis</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Centralized Item Categories, Suppliers & Stores</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Stock In/Out & Low Stock Alerts</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Track School Assets & Maintenance Schedules</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Extensive Inventory Reports & Analytics</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Mobile & Integration -->
+                <!-- Communication & Collaboration -->
                 <div class="group" data-aos="fade-up" data-aos-delay="800">
                     <div
                         class="bg-gradient-to-br from-emerald-900/30 to-green-900/30 p-6 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-emerald-500/50 transition-all duration-300 h-full">
                         <div
                             class="w-16 h-16 bg-gradient-to-r from-emerald-500 to-green-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                            <i class="fas fa-mobile-alt text-white text-2xl"></i>
+                            <i class="fas fa-comments text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">Mobile & Integration</h3>
-                        <p class="text-gray-400 mb-4">Seamless connectivity across all platforms and devices</p>
+                        <h3 class="text-xl font-bold mb-3">Communication & Collaboration</h3>
+                        <p class="text-gray-400 mb-4">Seamless communication channels for all stakeholders.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Native Mobile Apps</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>API Integrations</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Single Sign-On</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Third-party Tools</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Customizable Global & School-specific Notices</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Secure Internal Messaging System for all Roles</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Seamless Email & SMS Communication Integration</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Enhanced Parent-Teacher Interaction & Feedback
                         </ul>
                     </div>
                 </div>
 
-                <!-- Compliance & Security -->
+                <!-- Data Security & Privacy -->
                 <div class="group" data-aos="fade-up" data-aos-delay="900">
                     <div
                         class="bg-gradient-to-br from-orange-900/30 to-red-900/30 p-6 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-orange-500/50 transition-all duration-300 h-full">
@@ -508,51 +420,20 @@
                             class="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                             <i class="fas fa-lock text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-3">Compliance & Security</h3>
-                        <p class="text-gray-400 mb-4">Enterprise-grade security with global compliance standards</p>
+                        <h3 class="text-xl font-bold mb-3">Data Security & Privacy</h3>
+                        <p class="text-gray-400 mb-4">Ensuring the highest standards of data protection and compliance.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>GDPR Compliant</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>SOC 2 Certified</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>End-to-End Encryption</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Audit Trails</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Industry-standard AES-256 Encryption & Daily Backups</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Granular Role-based Access Control & Permissions</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Adherence to GDPR, CCPA, and Local Data Compliance</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Comprehensive Audit Trails & Secure Session Management</li>
                         </ul>
                     </div>
                 </div>
             </div>
-
-            <!-- Feature Highlight Banner -->
-            <div class="mt-16" data-aos="fade-up">
-                <div
-                    class="bg-gradient-to-r from-blue-900/50 to-purple-900/50 rounded-2xl p-8 border border-white/10 backdrop-blur-sm">
-                    <div class="text-center">
-                        <h3
-                            class="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                            Complete HR Ecosystem
-                        </h3>
-                        <p class="text-xl text-gray-300 mb-6">
-                            From hire to retire - manage every aspect of your workforce with one integrated platform
-                        </p>
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div class="text-center">
-                                <div class="text-2xl font-bold text-blue-400 mb-2">500+</div>
-                                <div class="text-gray-400">Built-in Features</div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-2xl font-bold text-purple-400 mb-2">50+</div>
-                                <div class="text-gray-400">Integrations</div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-2xl font-bold text-pink-400 mb-2">24/7</div>
-                                <div class="text-gray-400">Expert Support</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
-    <!-- Subscription & Renewal Section -->
+    <!-- Flexible Pricing Plans Section -->
     <section id="subscription" class="py-20 bg-black/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16" data-aos="fade-up">
@@ -561,41 +442,41 @@
                     Flexible Pricing Plans
                 </h2>
                 <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                    Choose the perfect plan for your organization with our scalable SaaS pricing model
+                    Choose the perfect plan for your educational institution with our scalable SaaS model
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-                <!-- Free Trial -->
+                <!-- Basic Plan -->
                 <div class="group" data-aos="fade-up" data-aos-delay="100">
                     <div
                         class="bg-gradient-to-br from-gray-900/50 to-slate-900/50 p-8 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-gray-400/50 transition-all duration-300 h-full">
                         <div class="text-center">
                             <div
                                 class="w-16 h-16 bg-gradient-to-r from-gray-500 to-slate-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <i class="fas fa-gift text-white text-2xl"></i>
+                                <i class="fas fa-lightbulb text-white text-2xl"></i>
                             </div>
-                            <h3 class="text-2xl font-bold mb-2">Free Trial</h3>
-                            <p class="text-gray-400 mb-4">Perfect for testing our platform</p>
+                            <h3 class="text-2xl font-bold mb-2">Starter</h3>
+                            <p class="text-gray-400 mb-4">Ideal for small schools</p>
                             <div class="text-4xl font-bold mb-6">
-                                <span class="text-gray-400">Free</span>
+                                <span class="text-gray-400">$49</span><span class="text-lg text-gray-500">/month</span>
                             </div>
                             <ul class="text-left text-gray-400 space-y-2 mb-8">
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>30-day free trial</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>Up to 50 employees</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>Core HR features</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>Email support</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>Basic reporting</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>Up to 200 Students</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>Core Academic Modules</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>Basic Fees & Finance</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>Email & Chat Support</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>Single Branch</li>
                             </ul>
                             <button
                                 class="w-full py-3 bg-gradient-to-r from-gray-600 to-slate-700 rounded-lg font-semibold hover:from-gray-700 hover:to-slate-800 transition-all duration-200">
-                                Start Free Trial
+                                Get Started
                             </button>
                         </div>
                     </div>
                 </div>
 
-                <!-- Professional -->
+                <!-- Growth Plan -->
                 <div class="group" data-aos="fade-up" data-aos-delay="200">
                     <div
                         class="bg-gradient-to-br from-blue-900/50 to-indigo-900/50 p-8 rounded-2xl border-2 border-blue-500/50 backdrop-blur-sm hover:border-blue-400/70 transition-all duration-300 h-full relative">
@@ -609,30 +490,29 @@
                                 class="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mx-auto mb-4">
                                 <i class="fas fa-star text-white text-2xl"></i>
                             </div>
-                            <h3 class="text-2xl font-bold mb-2">Professional</h3>
-                            <p class="text-gray-400 mb-4">For growing businesses</p>
+                            <h3 class="text-2xl font-bold mb-2">Growth</h3>
+                            <p class="text-gray-400 mb-4">For expanding schools</p>
                             <div class="text-4xl font-bold mb-2">
-                                <span class="text-blue-400">$15</span>
-                                <span class="text-lg text-gray-500">/user/month</span>
+                                <span class="text-blue-400">$149</span>
+                                <span class="text-lg text-gray-500">/month</span>
                             </div>
-                            <p class="text-sm text-gray-500 mb-6">Billed annually ($12/month)</p>
+                            <p class="text-sm text-gray-500 mb-6">Billed annually</p>
                             <ul class="text-left text-gray-400 space-y-2 mb-8">
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>Unlimited employees</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>Advanced HR features</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>Payroll management</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>Performance reviews</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>24/7 support</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>Advanced analytics</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>Up to 1000 Students</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>Advanced Academic & Finance</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>Transport & Hostel Management</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>24/7 Priority Support</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>Multi-Branch Capable</li>
                             </ul>
                             <button
                                 class="w-full py-3 bg-gradient-to-r from-blue-600 to-indigo-700 rounded-lg font-semibold hover:from-blue-700 hover:to-indigo-800 transition-all duration-200">
-                                Start Professional
+                                Choose Growth
                             </button>
                         </div>
                     </div>
                 </div>
 
-                <!-- Enterprise -->
+                <!-- Enterprise Plan -->
                 <div class="group" data-aos="fade-up" data-aos-delay="300">
                     <div
                         class="bg-gradient-to-br from-purple-900/50 to-pink-900/50 p-8 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-purple-500/50 transition-all duration-300 h-full">
@@ -641,18 +521,17 @@
                                 class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mx-auto mb-4">
                                 <i class="fas fa-crown text-white text-2xl"></i>
                             </div>
-                            <h3 class="text-2xl font-bold mb-2">Enterprise</h3>
-                            <p class="text-gray-400 mb-4">For large organizations</p>
+                            <h3 class="text-2xl font-bold mb-2">Institution</h3>
+                            <p class="text-gray-400 mb-4">For large institutions & universities</p>
                             <div class="text-4xl font-bold mb-6">
                                 <span class="text-purple-400">Custom</span>
                             </div>
                             <ul class="text-left text-gray-400 space-y-2 mb-8">
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>Everything in Professional</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>AI-powered features</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>Custom integrations</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>Dedicated support</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>SLA guarantee</li>
-                                <li><i class="fas fa-check text-green-400 mr-3"></i>White-label options</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>Unlimited Students & Branches</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>Full ERP Suite & Custom Modules</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>Dedicated Account Manager</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>On-premise Deployment Option</li>
+                                <li><i class="fas fa-check text-green-400 mr-3"></i>SLA & White-labeling</li>
                             </ul>
                             <button
                                 class="w-full py-3 bg-gradient-to-r from-purple-600 to-pink-700 rounded-lg font-semibold hover:from-purple-700 hover:to-pink-800 transition-all duration-200">
@@ -668,26 +547,26 @@
                 <div
                     class="bg-gradient-to-br from-green-900/30 to-teal-900/30 p-6 rounded-xl border border-white/10 backdrop-blur-sm text-center">
                     <i class="fas fa-sync-alt text-green-400 text-2xl mb-3"></i>
-                    <h4 class="font-semibold mb-2">Auto-Renewal</h4>
-                    <p class="text-sm text-gray-400">Seamless subscription renewals with no downtime</p>
+                    <h4 class="font-semibold mb-2">Flexible Billing</h4>
+                    <p class="text-sm text-gray-400">Annual, Quarterly, or Monthly payment options</p>
                 </div>
                 <div
                     class="bg-gradient-to-br from-blue-900/30 to-indigo-900/30 p-6 rounded-xl border border-white/10 backdrop-blur-sm text-center">
                     <i class="fas fa-credit-card text-blue-400 text-2xl mb-3"></i>
-                    <h4 class="font-semibold mb-2">Multiple Gateways</h4>
-                    <p class="text-sm text-gray-400">Razorpay, Stripe, and other payment options</p>
+                    <h4 class="font-semibold mb-2">Multiple Payment Gateways</h4>
+                    <p class="text-sm text-gray-400">Stripe, Razorpay, PayPal, and local integrations</p>
                 </div>
                 <div
                     class="bg-gradient-to-br from-yellow-900/30 to-orange-900/30 p-6 rounded-xl border border-white/10 backdrop-blur-sm text-center">
                     <i class="fas fa-shield-alt text-yellow-400 text-2xl mb-3"></i>
-                    <h4 class="font-semibold mb-2">Secure Payments</h4>
-                    <p class="text-sm text-gray-400">PCI DSS compliant payment processing</p>
+                    <h4 class="font-semibold mb-2">Secure Transactions</h4>
+                    <p class="text-sm text-gray-400">PCI DSS compliant, ensuring all payments are secure</p>
                 </div>
                 <div
                     class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 p-6 rounded-xl border border-white/10 backdrop-blur-sm text-center">
                     <i class="fas fa-chart-pie text-purple-400 text-2xl mb-3"></i>
-                    <h4 class="font-semibold mb-2">Usage Analytics</h4>
-                    <p class="text-sm text-gray-400">Detailed billing and usage reports</p>
+                    <h4 class="font-semibold mb-2">Detailed Billing Reports</h4>
+                    <p class="text-sm text-gray-400">Transparent and comprehensive financial reporting</p>
                 </div>
             </div>
         </div>
@@ -697,18 +576,18 @@
     <section id="marketing" class="py-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16" data-aos="fade-up">
-                <h2
-                    class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-400 to-red-500 bg-clip-text text-transparent">
-                    Marketing Strategy
-                </h2>
-                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                    Our comprehensive approach to building a global SaaS empire in the HR technology space
-                </p>
+                    <h2
+                        class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-400 to-red-500 bg-clip-text text-transparent">
+                        Our Growth Strategy
+                    </h2>
+                    <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                        Our comprehensive approach to digitizing education and expanding our global footprint
+                    </p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
                 <div data-aos="fade-right">
-                    <h3 class="text-3xl font-bold mb-6">SaaS Growth Model</h3>
+                    <h3 class="text-3xl font-bold mb-6">Sustainable Growth Model</h3>
                     <div class="space-y-4">
                         <div class="flex items-start space-x-4">
                             <div
@@ -716,31 +595,28 @@
                                 <i class="fas fa-rocket text-white text-sm"></i>
                             </div>
                             <div>
-                                <h4 class="font-semibold mb-2">Freemium to Premium</h4>
-                                <p class="text-gray-400">Start with a generous free trial, then convert to paid plans
-                                    with advanced features</p>
+                                <h4 class="font-semibold mb-2">Freemium & Tiered Subscriptions</h4>
+                                <p class="text-gray-400">Offer flexible plans from free trials to enterprise-grade solutions.</p>
                             </div>
                         </div>
                         <div class="flex items-start space-x-4">
                             <div
                                 class="w-8 h-8 bg-gradient-to-r from-red-500 to-pink-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                                <i class="fas fa-users text-white text-sm"></i>
+                                <i class="fas fa-globe text-white text-sm"></i>
                             </div>
                             <div>
-                                <h4 class="font-semibold mb-2">Viral Coefficient</h4>
-                                <p class="text-gray-400">Built-in referral system and network effects to drive organic
-                                    growth</p>
+                                <h4 class="font-semibold mb-2">Global Market Penetration</h4>
+                                <p class="text-gray-400">Strategic expansion into emerging and established educational markets.</p>
                             </div>
                         </div>
                         <div class="flex items-start space-x-4">
                             <div
                                 class="w-8 h-8 bg-gradient-to-r from-pink-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                                <i class="fas fa-chart-line text-white text-sm"></i>
+                                <i class="fas fa-handshake text-white text-sm"></i>
                             </div>
                             <div>
-                                <h4 class="font-semibold mb-2">Data-Driven Growth</h4>
-                                <p class="text-gray-400">Advanced analytics to optimize conversion funnels and reduce
-                                    churn</p>
+                                <h4 class="font-semibold mb-2">Partnerships & Alliances</h4>
+                                <p class="text-gray-400">Collaborate with ed-tech providers and government initiatives.</p>
                             </div>
                         </div>
                     </div>
@@ -749,23 +625,23 @@
                 <div data-aos="fade-left">
                     <div
                         class="bg-gradient-to-br from-pink-900/30 to-red-900/30 p-8 rounded-2xl border border-white/10 backdrop-blur-sm">
-                        <h4 class="text-2xl font-bold mb-6">Growth Metrics</h4>
+                        <h4 class="text-2xl font-bold mb-6">Impact & Reach Metrics</h4>
                         <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                             <div class="text-center">
-                                <div class="text-3xl font-bold text-pink-400 mb-2">100,000+</div>
-                                <div class="text-sm text-gray-400">Target Companies Year 3</div>
+                                <div class="text-3xl font-bold text-pink-400 mb-2">10,000+</div>
+                                <div class="text-sm text-gray-400">Target Institutions Year 3</div>
                             </div>
                             <div class="text-center">
-                                <div class="text-3xl font-bold text-red-400 mb-2">$500M</div>
-                                <div class="text-sm text-gray-400">ARR Target Year 5</div>
+                                <div class="text-3xl font-bold text-red-400 mb-2">5M+</div>
+                                <div class="text-sm text-gray-400">Students Impacted</div>
                             </div>
                             <div class="text-center">
-                                <div class="text-3xl font-bold text-orange-400 mb-2">98%</div>
-                                <div class="text-gray-400">Customer Retention</div>
+                                <div class="text-3xl font-bold text-orange-400 mb-2">99%</div>
+                                <div class="text-gray-400">Customer Satisfaction</div>
                             </div>
                             <div class="text-center">
-                                <div class="text-3xl font-bold text-yellow-400 mb-2">180%</div>
-                                <div class="text-gray-400">Net Revenue Retention</div>
+                                <div class="text-3xl font-bold text-yellow-400 mb-2">30+</div>
+                                <div class="text-gray-400">Countries Served</div>
                             </div>
                         </div>
                     </div>
@@ -780,9 +656,9 @@
                         class="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center mb-4">
                         <i class="fas fa-server text-white text-xl"></i>
                     </div>
-                    <h4 class="text-xl font-bold mb-3">Multi-Tenant Architecture</h4>
-                    <p class="text-gray-400">Scalable infrastructure supporting 10,000+ companies with complete data
-                        isolation and custom configurations</p>
+                    <h4 class="text-xl font-bold mb-3">Multi-Tenant SaaS Architecture</h4>
+                    <p class="text-gray-400">Scalable cloud infrastructure supporting thousands of schools with complete data
+                        isolation and custom configurations.</p>
                 </div>
                 <div
                     class="bg-gradient-to-br from-green-900/30 to-teal-900/30 p-6 rounded-xl border border-white/10 backdrop-blur-sm">
@@ -790,9 +666,9 @@
                         class="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-600 rounded-lg flex items-center justify-center mb-4">
                         <i class="fas fa-lock text-white text-xl"></i>
                     </div>
-                    <h4 class="text-xl font-bold mb-3">Enterprise Security</h4>
-                    <p class="text-gray-400">SOC 2 Type II, GDPR compliant with end-to-end encryption and advanced
-                        threat protection</p>
+                    <h4 class="text-xl font-bold mb-3">Robust Data Security</h4>
+                    <p class="text-gray-400">AES-256 encryption, daily backups, role-based access control, and advanced
+                        threat protection to safeguard sensitive school data.</p>
                 </div>
                 <div
                     class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 p-6 rounded-xl border border-white/10 backdrop-blur-sm">
@@ -800,169 +676,9 @@
                         class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 rounded-lg flex items-center justify-center mb-4">
                         <i class="fas fa-globe text-white text-xl"></i>
                     </div>
-                    <h4 class="text-xl font-bold mb-3">Global Compliance</h4>
-                    <p class="text-gray-400">Multi-region deployment with local compliance for GDPR, CCPA, and other
-                        international regulations</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Customer Success Stories -->
-    <section id="success" class="py-20 bg-gradient-to-r from-emerald-900/20 to-teal-900/20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16" data-aos="fade-up">
-                <h2
-                    class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">
-                    Customer Success Stories
-                </h2>
-                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                    See how leading organizations transformed their HR operations with Smart School HRMS
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-                <!-- Success Story 1 -->
-                <div class="group" data-aos="fade-up" data-aos-delay="100">
-                    <div
-                        class="bg-gradient-to-br from-blue-900/30 to-indigo-900/30 p-8 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-blue-500/50 transition-all duration-300 h-full">
-                        <div class="flex items-center mb-6">
-                            <div
-                                class="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center mr-4">
-                                <i class="fas fa-building text-white text-xl"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-bold">TechCorp Global</h3>
-                                <p class="text-gray-400 text-sm">5,000+ Employees</p>
-                            </div>
-                        </div>
-                        <blockquote class="text-gray-300 mb-4 italic">
-                            "Smart School HRMS reduced our HR processing time by 75% and improved employee satisfaction
-                            scores by 40%. The AI-powered insights helped us make better workforce decisions."
-                        </blockquote>
-                        <div class="flex items-center">
-                            <div class="text-sm text-gray-400">
-                                <strong>Sarah Johnson</strong><br>
-                                Chief People Officer
-                            </div>
-                        </div>
-                        <div class="mt-4 grid grid-cols-2 gap-4 text-center">
-                            <div>
-                                <div class="text-2xl font-bold text-blue-400">75%</div>
-                                <div class="text-xs text-gray-500">Time Saved</div>
-                            </div>
-                            <div>
-                                <div class="text-2xl font-bold text-green-400">40%</div>
-                                <div class="text-xs text-gray-500">Satisfaction ↑</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Success Story 2 -->
-                <div class="group" data-aos="fade-up" data-aos-delay="200">
-                    <div
-                        class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 p-8 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-purple-500/50 transition-all duration-300 h-full">
-                        <div class="flex items-center mb-6">
-                            <div
-                                class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 rounded-lg flex items-center justify-center mr-4">
-                                <i class="fas fa-rocket text-white text-xl"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-bold">InnovateLab</h3>
-                                <p class="text-gray-400 text-sm">2,500+ Employees</p>
-                            </div>
-                        </div>
-                        <blockquote class="text-gray-300 mb-4 italic">
-                            "The recruitment module with AI screening helped us reduce hiring time from 6 weeks to 2
-                            weeks while improving candidate quality by 60%."
-                        </blockquote>
-                        <div class="flex items-center">
-                            <div class="text-sm text-gray-400">
-                                <strong>Michael Chen</strong><br>
-                                VP of Talent Acquisition
-                            </div>
-                        </div>
-                        <div class="mt-4 grid grid-cols-2 gap-4 text-center">
-                            <div>
-                                <div class="text-2xl font-bold text-purple-400">67%</div>
-                                <div class="text-xs text-gray-500">Faster Hiring</div>
-                            </div>
-                            <div>
-                                <div class="text-2xl font-bold text-pink-400">60%</div>
-                                <div class="text-xs text-gray-500">Quality ↑</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Success Story 3 -->
-                <div class="group" data-aos="fade-up" data-aos-delay="300">
-                    <div
-                        class="bg-gradient-to-br from-green-900/30 to-emerald-900/30 p-8 rounded-2xl border border-white/10 backdrop-blur-sm hover:border-green-500/50 transition-all duration-300 h-full">
-                        <div class="flex items-center mb-6">
-                            <div
-                                class="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 rounded-lg flex items-center justify-center mr-4">
-                                <i class="fas fa-chart-line text-white text-xl"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-bold">GrowthCorp</h3>
-                                <p class="text-gray-400 text-sm">10,000+ Employees</p>
-                            </div>
-                        </div>
-                        <blockquote class="text-gray-300 mb-4 italic">
-                            "Payroll automation and compliance features saved us $2M annually while ensuring 100%
-                            accuracy across multiple countries and regulations."
-                        </blockquote>
-                        <div class="flex items-center">
-                            <div class="text-sm text-gray-400">
-                                <strong>Emily Rodriguez</strong><br>
-                                Global HR Director
-                            </div>
-                        </div>
-                        <div class="mt-4 grid grid-cols-2 gap-4 text-center">
-                            <div>
-                                <div class="text-2xl font-bold text-green-400">$2M</div>
-                                <div class="text-xs text-gray-500">Annual Savings</div>
-                            </div>
-                            <div>
-                                <div class="text-2xl font-bold text-emerald-400">100%</div>
-                                <div class="text-xs text-gray-500">Accuracy</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ROI Calculator -->
-            <div class="text-center mb-16" data-aos="fade-up">
-                <div
-                    class="bg-gradient-to-r from-indigo-900/50 to-purple-900/50 rounded-2xl p-8 border border-white/10 backdrop-blur-sm">
-                    <h3
-                        class="text-3xl font-bold mb-4 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
-                        Average Customer ROI
-                    </h3>
-                    <p class="text-xl text-gray-300 mb-8">
-                        Our customers typically see these results within the first year
-                    </p>
-                    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                        <div class="text-center">
-                            <div class="text-4xl font-bold text-green-400 mb-2">350%</div>
-                            <div class="text-gray-400">Average ROI</div>
-                        </div>
-                        <div class="text-center">
-                            <div class="text-4xl font-bold text-blue-400 mb-2">6 months</div>
-                            <div class="text-gray-400">Payback Period</div>
-                        </div>
-                        <div class="text-center">
-                            <div class="text-4xl font-bold text-purple-400 mb-2">$1.2M</div>
-                            <div class="text-gray-400">Avg Annual Savings</div>
-                        </div>
-                        <div class="text-center">
-                            <div class="text-4xl font-bold text-pink-400 mb-2">90%</div>
-                            <div class="text-gray-400">Process Automation</div>
-                        </div>
-                    </div>
+                    <h4 class="text-xl font-bold mb-3">Global Compliance & Localization</h4>
+                    <p class="text-gray-400">Adherence to international data privacy regulations (GDPR, CCPA) and support for
+                        multi-language interfaces and local currency options.</p>
                 </div>
             </div>
         </div>
@@ -972,13 +688,13 @@
     <section id="roadmap" class="py-20 bg-black/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16" data-aos="fade-up">
-                <h2
-                    class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                    Future Roadmap
-                </h2>
-                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                    Our vision for the next generation of HR technology and the innovations we're building
-                </p>
+                    <h2
+                        class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+                        Future Roadmap
+                    </h2>
+                    <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                        Our vision for advancing education technology and upcoming innovations for Smart School ERP
+                    </p>
             </div>
 
             <div class="relative">
@@ -988,7 +704,7 @@
                 </div>
 
                 <div class="space-y-12">
-                    <!-- Q1 2024 -->
+                    <!-- Q1 2024 - AI Tutor & Analytics (Implemented) -->
                     <div class="flex flex-col lg:flex-row items-center" data-aos="fade-right">
                         <div class="lg:w-1/2 lg:pr-12">
                             <div
@@ -996,21 +712,18 @@
                                 <div class="flex items-center mb-4">
                                     <div
                                         class="w-10 h-10 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center mr-4">
-                                        <i class="fas fa-brain text-white"></i>
+                                        <i class="fas fa-robot text-white"></i>
                                     </div>
                                     <div>
-                                        <h3 class="text-xl font-bold">Q1 2024 - Advanced AI Integration</h3>
-                                        <p class="text-cyan-400 text-sm">Phase 1</p>
+                                        <h3 class="text-xl font-bold">Q1 2024 - AI Tutor & Smart Analytics</h3>
+                                        <p class="text-emerald-400 text-sm">Implemented</p>
                                     </div>
                                 </div>
                                 <ul class="text-gray-400 space-y-2">
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>GPT-4 powered HR chatbot</li>
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Intelligent resume screening
-                                    </li>
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Predictive employee analytics
-                                    </li>
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Automated policy recommendations
-                                    </li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>AI-powered Doubt Solving Bot</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Adaptive Learning Paths & Recommendations</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Predictive Student Performance Analytics</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Automated Timetable Generation (AI-optimized)</li>
                                 </ul>
                             </div>
                         </div>
@@ -1021,7 +734,7 @@
                         <div class="lg:w-1/2 lg:pl-12 mt-6 lg:mt-0"></div>
                     </div>
 
-                    <!-- Q2 2024 -->
+                    <!-- Q2 2024 - Mobile Applications (Implemented) -->
                     <div class="flex flex-col lg:flex-row items-center" data-aos="fade-left">
                         <div class="lg:w-1/2 lg:pr-12 order-2 lg:order-1 mt-6 lg:mt-0"></div>
                         <div
@@ -1037,21 +750,21 @@
                                         <i class="fas fa-mobile-alt text-white"></i>
                                     </div>
                                     <div>
-                                        <h3 class="text-xl font-bold">Q2 2024 - Mobile Applications</h3>
-                                        <p class="text-green-400 text-sm">Phase 2</p>
+                                        <h3 class="text-xl font-bold">Q2 2024 - Native Mobile Applications</h3>
+                                        <p class="text-emerald-400 text-sm">Implemented</p>
                                     </div>
                                 </div>
                                 <ul class="text-gray-400 space-y-2">
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Native iOS & Android apps</li>
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Offline capability</li>
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Push notifications</li>
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Biometric authentication</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Dedicated iOS & Android Apps for Parents & Teachers</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Offline Access & Real-time Notifications</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Live Bus Tracking & Attendance Marking</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Biometric/Face Recognition for Attendance</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Q3 2024 -->
+                    <!-- Q3 2024 - Learning Management System (LMS) (Implemented) -->
                     <div class="flex flex-col lg:flex-row items-center" data-aos="fade-right">
                         <div class="lg:w-1/2 lg:pr-12">
                             <div
@@ -1059,18 +772,18 @@
                                 <div class="flex items-center mb-4">
                                     <div
                                         class="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-600 rounded-lg flex items-center justify-center mr-4">
-                                        <i class="fas fa-plug text-white"></i>
+                                        <i class="fas fa-graduation-cap text-white"></i>
                                     </div>
                                     <div>
-                                        <h3 class="text-xl font-bold">Q3 2024 - API Marketplace</h3>
-                                        <p class="text-purple-400 text-sm">Phase 3</p>
+                                        <h3 class="text-xl font-bold">Q3 2024 - Integrated LMS & E-learning</h3>
+                                        <p class="text-emerald-400 text-sm">Implemented</p>
                                     </div>
                                 </div>
                                 <ul class="text-gray-400 space-y-2">
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Public API platform</li>
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Third-party integrations</li>
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Custom app development</li>
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Revenue sharing program</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Seamless Integration with Popular LMS Platforms</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Online Quiz & Assignment Modules</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Virtual Classroom & Live Class Hosting</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Digital Library & Resource Sharing</li>
                                 </ul>
                             </div>
                         </div>
@@ -1081,7 +794,7 @@
                         <div class="lg:w-1/2 lg:pl-12 mt-6 lg:mt-0"></div>
                     </div>
 
-                    <!-- Q4 2024 -->
+                    <!-- Q4 2024 - Advanced Security & Compliance (Implemented) -->
                     <div class="flex flex-col lg:flex-row items-center" data-aos="fade-left">
                         <div class="lg:w-1/2 lg:pr-12 order-2 lg:order-1 mt-6 lg:mt-0"></div>
                         <div
@@ -1094,18 +807,18 @@
                                 <div class="flex items-center mb-4">
                                     <div
                                         class="w-10 h-10 bg-gradient-to-r from-orange-500 to-red-600 rounded-lg flex items-center justify-center mr-4">
-                                        <i class="fas fa-globe-americas text-white"></i>
+                                        <i class="fas fa-shield-alt text-white"></i>
                                     </div>
                                     <div>
-                                        <h3 class="text-xl font-bold">Q4 2024 - Global Expansion</h3>
-                                        <p class="text-orange-400 text-sm">Phase 4</p>
+                                        <h3 class="text-xl font-bold">Q4 2024 - Enhanced Security & Compliance</h3>
+                                        <p class="text-emerald-400 text-sm">Implemented</p>
                                     </div>
                                 </div>
                                 <ul class="text-gray-400 space-y-2">
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Multi-language support</li>
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Regional compliance</li>
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>Local payment methods</li>
-                                    <li><i class="fas fa-check text-green-400 mr-2"></i>24/7 global support</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Advanced Threat Detection & Prevention</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Continuous Compliance Audits (GDPR, CCPA, FERPA)</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Customizable Data Retention Policies</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Secure API Access & Integration Controls</li>
                                 </ul>
                             </div>
                         </div>
@@ -1121,10 +834,10 @@
             <div data-aos="fade-up">
                 <h2
                     class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                    Ready to Transform Your HR?
+                    Ready to Digitize Your Campus?
                 </h2>
                 <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-                    Join thousands of companies already using Smart School HRMS to streamline their workforce management
+                    Join thousands of educational institutions already using Smart School ERP to streamline operations
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="{{ route('register') }}"
@@ -1150,18 +863,18 @@
                     <div class="flex items-center space-x-3 mb-4">
                         <div
                             class="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                            <i class="fas fa-users text-white text-sm"></i>
+                            <i class="fas fa-graduation-cap text-white text-sm"></i>
                         </div>
-                        <span class="text-xl font-bold">Smart School HRMS</span>
+                        <span class="text-xl font-bold">Smart School ERP</span>
                     </div>
                     <p class="text-gray-400 text-sm">
-                        AI-powered human resource management system for the modern workplace.
+                        Integrated campus management system for modern educational institutions.
                     </p>
                 </div>
                 <div>
                     <h4 class="font-semibold mb-4">Product</h4>
                     <ul class="space-y-2 text-sm text-gray-400">
-                        <li><a href="#features" class="hover:text-white transition-colors">Features</a></li>
+                        <li><a href="#features" class="hover:text-white transition-colors">Modules</a></li>
                         <li><a href="#subscription" class="hover:text-white transition-colors">Pricing</a></li>
                         <li><a href="#" class="hover:text-white transition-colors">Integrations</a></li>
                         <li><a href="#" class="hover:text-white transition-colors">Security</a></li>
@@ -1180,7 +893,7 @@
                     <h4 class="font-semibold mb-4">Support</h4>
                     <ul class="space-y-2 text-sm text-gray-400">
                         <li><a href="#" class="hover:text-white transition-colors">Help Center</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="{{ route('project-docs') }}" class="hover:text-white transition-colors">Documentation</a></li>
                         <li><a href="#" class="hover:text-white transition-colors">API Reference</a></li>
                         <li><a href="#" class="hover:text-white transition-colors">Status</a></li>
                     </ul>

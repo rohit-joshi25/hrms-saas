@@ -69,7 +69,7 @@
                         <span class="text-xl font-bold text-gray-900">Smart School ERP</span>
                     </a>
                     <span class="text-gray-400">|</span>
-                    <span class="text-lg font-semibold text-blue-600">Documentation</span>
+                    <span class="text-lg font-semibold text-blue-600">Comprehensive Documentation</span>
                 </div>
                 <div class="flex items-center space-x-4">
                     <a href="{{ route('welcome') }}" class="text-gray-600 hover:text-blue-600 transition-colors">
@@ -88,44 +88,113 @@
         <div class="w-64 bg-white border-r border-gray-200 sticky top-16 h-screen overflow-y-auto">
             <div class="p-6">
                 <h3 class="text-lg font-semibold text-gray-900 mb-4">Table of Contents</h3>
-                <nav class="space-y-2">
+                <!-- <nav class="space-y-2">
                     <a href="#overview"
                         class="flex items-center px-3 py-2 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
-                        <i class="fas fa-info-circle mr-3 text-blue-500"></i>Overview
+                        <i class="fas fa-info-circle mr-3 text-blue-500"></i>Project Overview
                     </a>
                     <a href="#setup"
                         class="flex items-center px-3 py-2 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
-                        <i class="fas fa-cog mr-3 text-green-500"></i>Setup & Installation
+                        <i class="fas fa-cog mr-3 text-green-500"></i>Setup & Deployment
                     </a>
-                    <a href="#features"
+                    <a href="#modules"
                         class="flex items-center px-3 py-2 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
-                        <i class="fas fa-star mr-3 text-purple-500"></i>Core Modules
+                        <i class="fas fa-cubes mr-3 text-purple-500"></i>Modules 
                     </a>
-                    <a href="#subscription"
+                    <a href="#finance"
                         class="flex items-center px-3 py-2 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
-                        <i class="fas fa-credit-card mr-3 text-yellow-500"></i>Plans & Billing
+                        <i class="fas fa-dollar-sign mr-3 text-yellow-500"></i>Plans
                     </a>
+                    
+
                     <a href="#roles"
                         class="flex items-center px-3 py-2 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
-                        <i class="fas fa-users-cog mr-3 text-indigo-500"></i>User Roles
+                        <i class="fas fa-users-cog mr-3 text-indigo-500"></i>User Roles & Permissions
+                    </a>
+                    <a href="#user-guides"
+                        class="flex items-center px-3 py-2 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-book-reader mr-3 text-teal-500"></i>User Guides
                     </a>
                     <a href="#security"
                         class="flex items-center px-3 py-2 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
-                        <i class="fas fa-shield-alt mr-3 text-red-500"></i>Data Security
+                        <i class="fas fa-shield-alt mr-3 text-red-500"></i>Data Security & Compliance
                     </a>
                     <a href="#api"
                         class="flex items-center px-3 py-2 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
-                        <i class="fas fa-code mr-3 text-cyan-500"></i>API Endpoints
+                        <i class="fas fa-code mr-3 text-cyan-500"></i>API Integrations
                     </a>
                     <a href="#roadmap"
                         class="flex items-center px-3 py-2 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
-                        <i class="fas fa-road mr-3 text-pink-500"></i>Roadmap
+                        <i class="fas fa-road mr-3 text-pink-500"></i>Development Roadmap
                     </a>
                     <a href="#faq"
                         class="flex items-center px-3 py-2 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
                         <i class="fas fa-question-circle mr-3 text-orange-500"></i>FAQ
                     </a>
+                </nav> -->
+
+                <nav class="space-y-1">
+                    <a href="#overview"
+                        class="flex items-start gap-3 px-3 py-2.5 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-info-circle text-blue-500 w-5 mt-0.5"></i>
+                        <span class="leading-snug">Project Overview</span>
+                    </a>
+
+                    <a href="#setup"
+                        class="flex items-start gap-3 px-3 py-2.5 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-cog text-green-500 w-5 mt-0.5"></i>
+                        <span class="leading-snug">Setup & Deployment</span>
+                    </a>
+
+                    <a href="#modules"
+                        class="flex items-start gap-3 px-3 py-2.5 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-cubes text-purple-500 w-5 mt-0.5"></i>
+                        <span class="leading-snug">Modules</span>
+                    </a>
+
+                    <a href="#finance"
+                        class="flex items-start gap-3 px-3 py-2.5 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-dollar-sign text-yellow-500 w-5 mt-0.5"></i>
+                        <span class="leading-snug">Plans</span>
+                    </a>
+
+                    <a href="#roles"
+                        class="flex items-start gap-3 px-3 py-2.5 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-users-cog text-indigo-500 w-5 mt-0.5"></i>
+                        <span class="leading-snug">User Roles & Permissions</span>
+                    </a>
+
+                    <a href="#user-guides"
+                        class="flex items-start gap-3 px-3 py-2.5 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-book-reader text-teal-500 w-5 mt-0.5"></i>
+                        <span class="leading-snug">User Guides</span>
+                    </a>
+
+                    <a href="#security"
+                        class="flex items-start gap-3 px-3 py-2.5 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-shield-alt text-red-500 w-5 mt-0.5"></i>
+                        <span class="leading-snug">Data Security & Compliance</span>
+                    </a>
+
+                    <a href="#api"
+                        class="flex items-start gap-3 px-3 py-2.5 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-code text-cyan-500 w-5 mt-0.5"></i>
+                        <span class="leading-snug">API Integrations</span>
+                    </a>
+
+                    <a href="#roadmap"
+                        class="flex items-start gap-3 px-3 py-2.5 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-road text-pink-500 w-5 mt-0.5"></i>
+                        <span class="leading-snug">Development Roadmap</span>
+                    </a>
+
+                    <a href="#faq"
+                        class="flex items-start gap-3 px-3 py-2.5 text-sm font-medium text-gray-600 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-question-circle text-orange-500 w-5 mt-0.5"></i>
+                        <span class="leading-snug">FAQ</span>
+                    </a>
                 </nav>
+
             </div>
         </div>
 
@@ -133,10 +202,10 @@
             <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16">
                 <div class="max-w-4xl mx-auto px-6 text-center" data-aos="fade-up">
                     <h1 class="text-4xl md:text-5xl font-bold mb-4">
-                        School ERP Documentation
+                        Smart School ERP Documentation
                     </h1>
                     <p class="text-xl text-blue-100 mb-8">
-                        Learn how to manage your campus, students, and staff effectively with Smart School System
+                        Detailed guides and resources for effectively managing your educational institution
                     </p>
                     <div class="flex justify-center space-x-4">
                         <a href="#setup"
@@ -156,14 +225,19 @@
                 <section id="overview" class="mb-16" data-aos="fade-up">
                     <h2 class="text-3xl font-bold text-gray-900 mb-6 flex items-center">
                         <i class="fas fa-info-circle text-blue-500 mr-3"></i>
-                        Overview
+                        Project Overview
                     </h2>
 
                     <div class="prose prose-lg max-w-none">
                         <p class="text-lg text-gray-600 mb-6">
-                            Smart School ERP is an enterprise-level Software-as-a-Service (SaaS) platform designed to
-                            digitize educational institutions. From admissions to alumni management, we automate complex
-                            campus operations.
+                            Smart School ERP is a state-of-the-art Enterprise Resource Planning solution tailored for
+                            educational institutions. Our multi-tenant SaaS platform is designed to automate and
+                            streamline a wide array of campus operations, encompassing academic, administrative, and
+                            financial management. It supports a diverse range of user roles, including SuperAdmins,
+                            School Admins, Accountants, Teachers, Parents, and Students, offering a customized and
+                            efficient experience for every stakeholder. The system is built to handle multi-branch
+                            institutions and provides real-time, data-driven insights to foster effective
+                            decision-making and a collaborative learning environment.
                         </p>
                     </div>
 
@@ -174,20 +248,20 @@
                                 class="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                                 <i class="fas fa-school text-white"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">Multi-Branch</h3>
-                            <p class="text-gray-600">Centralized management for institutions with multiple campuses
-                                and isolated branch data.</p>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Multi-Branch & Multi-Tenant</h3>
+                            <p class="text-gray-600">Centralized management for institutions with multiple campuses,
+                                each with isolated data and customizable settings.</p>
                         </div>
 
                         <div
                             class="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-xl border border-green-200 group hover:shadow-lg transition-all duration-300">
                             <div
                                 class="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                                <i class="fas fa-file-invoice-dollar text-white"></i>
+                                <i class="fas fa-calendar-alt text-white"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">Smart Fees</h3>
-                            <p class="text-gray-600">Automated fee collection, invoice generation, and financial
-                                reporting for seamless accounting.</p>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Academic Session Management</h3>
+                            <p class="text-gray-600">Robust handling of academic sessions, student promotions, and
+                                historical data archiving.</p>
                         </div>
 
                         <div
@@ -196,9 +270,9 @@
                                 class="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                                 <i class="fas fa-chart-line text-white"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">Academic Insights</h3>
-                            <p class="text-gray-600">Real-time tracking of student performance, attendance trends, and
-                                learning outcomes.</p>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Data-Driven Insights</h3>
+                            <p class="text-gray-600">Real-time analytics and comprehensive reports for informed
+                                decision-making across all modules.</p>
                         </div>
                     </div>
                 </section>
@@ -206,34 +280,47 @@
                 <section id="setup" class="mb-16" data-aos="fade-up">
                     <h2 class="text-3xl font-bold text-gray-900 mb-6 flex items-center">
                         <i class="fas fa-cog text-green-500 mr-3"></i>
-                        Setup & Installation
+                        Setup & Deployment
                     </h2>
 
                     <div class="bg-white rounded-xl border border-gray-200 p-6 mb-6">
-                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Local Development Setup</h3>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Local Development Environment</h3>
                         <div class="space-y-4">
                             <div>
                                 <h4 class="font-semibold text-gray-800 mb-2">1. Clone the Repository</h4>
-                                <pre class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto"><code>git clone https://github.com/rohit-joshi25/hrms-saas.git
-cd hrms-saas</code></pre>
+                                <pre class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto"><code>git clone [your-repository-url].git
+cd schoolmanagermentsystem</code></pre>
                             </div>
 
                             <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">2. Install Dependencies</h4>
+                                <h4 class="font-semibold text-gray-800 mb-2">2. Install PHP and JavaScript Dependencies
+                                </h4>
                                 <pre class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto"><code>composer install
-npm install</code></pre>
+npm install && npm run dev</code></pre>
                             </div>
 
                             <div>
                                 <h4 class="font-semibold text-gray-800 mb-2">3. Environment Configuration</h4>
                                 <pre class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto"><code>cp .env.example .env
-php artisan key:generate</code></pre>
+php artisan key:generate
+php artisan storage:link</code></pre>
                             </div>
 
                             <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">4. Database Setup</h4>
-                                <pre class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto"><code>php artisan migrate --seed
-php artisan db:seed --class=SchoolSeeder</code></pre>
+                                <h4 class="font-semibold text-gray-800 mb-2">4. Database Setup & Seeding</h4>
+                                <pre
+                                    class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto"><code>php artisan migrate:fresh --seed</code></pre>
+                                <p class="text-sm text-gray-500 mt-2">This command will create tables and seed initial
+                                    data, including a SuperAdmin user (email: <code>superadmin@example.com</code>,
+                                    password: <code>password</code>).</p>
+                            </div>
+
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-2">5. Run the Application</h4>
+                                <pre
+                                    class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto"><code>php artisan serve</code></pre>
+                                <p class="text-sm text-gray-500 mt-2">Access the application at
+                                    <code>http://127.0.0.1:8000</code>.</p>
                             </div>
                         </div>
                     </div>
@@ -241,24 +328,30 @@ php artisan db:seed --class=SchoolSeeder</code></pre>
                     <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl border border-blue-200 p-6">
                         <h3 class="text-xl font-semibold text-gray-900 mb-4 flex items-center">
                             <i class="fas fa-cloud text-blue-500 mr-2"></i>
-                            Production Deployment
+                            Production Deployment Considerations
                         </h3>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">Docker Deployment</h4>
-                                <pre class="bg-gray-900 text-green-400 p-3 rounded-lg text-sm overflow-x-auto"><code>docker-compose up -d
-docker exec app php artisan migrate</code></pre>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">Server Deployment</h4>
-                                <pre class="bg-gray-900 text-green-400 p-3 rounded-lg text-sm overflow-x-auto"><code>./deploy.sh production
-php artisan queue:work</code></pre>
-                            </div>
+                        <div class="prose prose-lg max-w-none text-gray-600">
+                            <p>For production environments, ensure you configure your web server (Nginx/Apache), set up
+                                a robust database, and manage your environment variables securely. Implement proper
+                                caching, queue workers, and scheduled tasks for optimal performance. Consider using
+                                Docker for containerized deployments for consistency across environments.</p>
+                            <h4 class="font-semibold text-gray-800 mt-4 mb-2">Key Steps:</h4>
+                            <ul class="list-disc list-inside space-y-1">
+                                <li>Configure `.env` file with production database credentials and application URL.</li>
+                                <li>Optimize composer autoloader: <code>composer dump-autoload --optimize</code></li>
+                                <li>Cache configuration and routes: <code>php artisan config:cache</code>,
+                                    <code>php artisan route:cache</code></li>
+                                <li>Set up a queue worker: <code>php artisan queue:work --daemon --tries=3</code></li>
+                                <li>Configure cron job for scheduled tasks:
+                                    <code>* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1</code>
+                                </li>
+                                <li>Secure file permissions for storage and bootstrap/cache directories.</li>
+                            </ul>
                         </div>
                     </div>
                 </section>
 
-                <section id="features" class="mb-16" data-aos="fade-up">
+                <section id="modules" class="mb-16" data-aos="fade-up">
                     <h2 class="text-3xl font-bold text-gray-900 mb-6 flex items-center">
                         <i class="fas fa-star text-purple-500 mr-3"></i>
                         Core Modules
@@ -278,19 +371,19 @@ php artisan queue:work</code></pre>
                             <div class="space-y-2">
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Online Admission & Enrollment
+                                    Comprehensive Online Admission & Enrollment
                                 </div>
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Student Profile & Documents
+                                    Detailed Student Profiles, Documents & Health Records
                                 </div>
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    ID Card Generation
+                                    Digital ID Card Generation with QR/Barcode
                                 </div>
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Promotion & Alumni Records
+                                    Academic Promotions, Transfers & Alumni Records
                                 </div>
                             </div>
                         </div>
@@ -308,19 +401,19 @@ php artisan queue:work</code></pre>
                             <div class="space-y-2">
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Class & Section Management
+                                    Multi-level Class, Section & Subject Management
                                 </div>
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Exam Scheduling & Admit Cards
+                                    Dynamic Timetable Creation & Homework Assignment
                                 </div>
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Marks Register & Grade Book
+                                    Configurable Exam Scheduling & Automated Marks Entry
                                 </div>
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Homework & Assignment Tracking
+                                    Centralized Study Materials & Resource Sharing
                                 </div>
                             </div>
                         </div>
@@ -339,19 +432,19 @@ php artisan queue:work</code></pre>
                             <div class="space-y-2">
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Custom Fee Structures
+                                    Flexible Fee Structures & Auto-allocations
                                 </div>
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Online Payment Gateway Integration
+                                    Integrated Online Payment Gateways
                                 </div>
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Due Fee Reminders
+                                    Automated Invoicing, Receipts & Due Date Reminders
                                 </div>
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Expense & Income Reports
+                                    Comprehensive Income, Expense & Payroll Reports
                                 </div>
                             </div>
                         </div>
@@ -369,26 +462,148 @@ php artisan queue:work</code></pre>
                             <div class="space-y-2">
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Staff Directories & Roles
+                                    Centralized Staff Directories & Role-based Access
                                 </div>
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Biometric Attendance Sync
+                                    Integrated Teacher & Employee Attendance
                                 </div>
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Leave Management System
+                                    Automated Leave Management System
                                 </div>
                                 <div class="flex items-center text-sm text-gray-600">
                                     <i class="fas fa-check text-green-500 mr-2"></i>
-                                    Auto-Payroll Generation
+                                    Customizable Salary Templates & Auto-Payroll Generation
                                 </div>
                             </div>
                         </div>
+
+
+                        <div
+                            class="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition-all duration-300 group">
+                            <div class="flex items-center mb-4">
+                                <div
+                                    class="w-10 h-10 bg-red-500 rounded-lg flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fas fa-bus text-white"></i>
+                                </div>
+                                <h3 class="text-xl font-semibold text-gray-900">Transport Management</h3>
+                            </div>
+                            <p class="text-gray-600 mb-4">Efficiently manage school transportation services.</p>
+                            <div class="space-y-2">
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Vehicle & Driver Management
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Route & Stop Planning
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Student Allocation to Routes
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Automated Transport Fees
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition-all duration-300 group">
+                            <div class="flex items-center mb-4">
+                                <div
+                                    class="w-10 h-10 bg-cyan-500 rounded-lg flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fas fa-hotel text-white"></i>
+                                </div>
+                                <h3 class="text-xl font-semibold text-gray-900">Hostel Management</h3>
+                            </div>
+                            <p class="text-gray-600 mb-4">Streamlined management of student accommodation.</p>
+                            <div class="space-y-2">
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Building & Room Setup
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Student Room Allocations
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Hostel Fee Generation
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Visitor & Mess Management
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition-all duration-300 group">
+                            <div class="flex items-center mb-4">
+                                <div
+                                    class="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fas fa-warehouse text-white"></i>
+                                </div>
+                                <h3 class="text-xl font-semibold text-gray-900">Inventory Management</h3>
+                            </div>
+                            <p class="text-gray-600 mb-4">Track and manage all school assets and supplies.</p>
+                            <div class="space-y-2">
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Item Categories, Suppliers & Stores
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Stock In/Out & Low Stock Alerts
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Asset Tracking & Maintenance
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Comprehensive Inventory Reports
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition-all duration-300 group">
+                            <div class="flex items-center mb-4">
+                                <div
+                                    class="w-10 h-10 bg-emerald-500 rounded-lg flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fas fa-comments text-white"></i>
+                                </div>
+                                <h3 class="text-xl font-semibold text-gray-900">Communication</h3>
+                            </div>
+                            <p class="text-gray-600 mb-4">Seamless communication channels for all stakeholders.</p>
+                            <div class="space-y-2">
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Global & School-specific Notices
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Internal Messaging System
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Email & SMS Integration
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    Parent-Teacher Feedback
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </section>
 
-                <section id="subscription" class="mb-16" data-aos="fade-up">
+                <section id="finance" class="mb-16" data-aos="fade-up">
                     <h2 class="text-3xl font-bold text-gray-900 mb-6 flex items-center">
                         <i class="fas fa-credit-card text-yellow-500 mr-3"></i>
                         Plans & Billing
@@ -538,6 +753,151 @@ php artisan queue:work</code></pre>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="bg-gradient-to-r from-orange-50 to-red-50 rounded-xl border border-orange-200 p-6">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 bg-orange-600 rounded-lg flex items-center justify-center mr-4">
+                                    <i class="fas fa-id-badge text-white"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-900">Operational Staff</h3>
+                                    <p class="text-orange-600 text-sm">Accountant, Librarian & Transport</p>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <h4 class="font-semibold text-gray-800 mb-2">Accountant</h4>
+                                    <ul class="space-y-1 text-sm text-gray-600">
+                                        <li><i class="fas fa-check text-green-500 mr-2"></i>Manage Fee Invoices</li>
+                                        <li><i class="fas fa-check text-green-500 mr-2"></i>Track Expenses & Income</li>
+                                        <li><i class="fas fa-check text-green-500 mr-2"></i>Generate Financial Reports
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800 mb-2">Librarian & Driver</h4>
+                                    <ul class="space-y-1 text-sm text-gray-600">
+                                        <li><i class="fas fa-check text-green-500 mr-2"></i>Issue/Return Books</li>
+                                        <li><i class="fas fa-check text-green-500 mr-2"></i>Manage Bus Routes</li>
+                                        <li><i class="fas fa-check text-green-500 mr-2"></i>Vehicle Maintenance Logs
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="user-guides" class="mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6 flex items-center">
+                        <i class="fas fa-book-reader text-teal-500 mr-3"></i>
+                        User Guides
+                    </h2>
+
+                    <div class="space-y-8">
+                        <!-- Admin Guide -->
+                        <div class="bg-white rounded-xl border border-gray-200 p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                                <i class="fas fa-user-shield text-purple-600 mr-3"></i>
+                                Administrator Guide
+                            </h3>
+                            <div class="prose prose-sm text-gray-600 max-w-none">
+                                <p class="mb-4">As a SuperAdmin or School Admin, you have full control over the ERP
+                                    system. Here are the key workflows:</p>
+                                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 list-none pl-0">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chevron-right text-teal-500 mt-1 mr-2"></i>
+                                        <span><strong>System Configuration:</strong> Go to <em>Settings > General
+                                                Settings</em> to configure school details, logos, and academic
+                                            sessions.</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chevron-right text-teal-500 mt-1 mr-2"></i>
+                                        <span><strong>User Management:</strong> Use the <em>Human Resource</em> module
+                                            to add staff and the <em>Student Information</em> module for
+                                            admissions.</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chevron-right text-teal-500 mt-1 mr-2"></i>
+                                        <span><strong>Fee Setup:</strong> Define fee groups and types in <em>Fees
+                                                Collection</em> before assigning them to students.</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chevron-right text-teal-500 mt-1 mr-2"></i>
+                                        <span><strong>Timetable:</strong> Create class-wise timetables in the
+                                            <em>Academics</em> module to enable attendance tracking.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Teacher Guide -->
+                        <div class="bg-white rounded-xl border border-gray-200 p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                                <i class="fas fa-chalkboard-teacher text-blue-600 mr-3"></i>
+                                Teacher Guide
+                            </h3>
+                            <div class="prose prose-sm text-gray-600 max-w-none">
+                                <p class="mb-4">Teachers can manage their daily academic activities through the Teacher
+                                    Portal:</p>
+                                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 list-none pl-0">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chevron-right text-teal-500 mt-1 mr-2"></i>
+                                        <span><strong>Attendance:</strong> Mark student attendance daily via
+                                            <em>Academics > Daily Attendance</em>.</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chevron-right text-teal-500 mt-1 mr-2"></i>
+                                        <span><strong>Homework:</strong> Assign homework and upload study materials in
+                                            the <em>Homework</em> module.</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chevron-right text-teal-500 mt-1 mr-2"></i>
+                                        <span><strong>Examinations:</strong> Enter marks for scheduled exams and
+                                            generate report cards.</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chevron-right text-teal-500 mt-1 mr-2"></i>
+                                        <span><strong>Leaves:</strong> Apply for leave and view approval status in the
+                                            <em>Human Resource</em> section.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Student/Parent Guide -->
+                        <div class="bg-white rounded-xl border border-gray-200 p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                                <i class="fas fa-users text-green-600 mr-3"></i>
+                                Student & Parent Guide
+                            </h3>
+                            <div class="prose prose-sm text-gray-600 max-w-none">
+                                <p class="mb-4">Students and parents can access the portal to stay updated with school
+                                    activities:</p>
+                                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 list-none pl-0">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chevron-right text-teal-500 mt-1 mr-2"></i>
+                                        <span><strong>Online Fees:</strong> View pending dues and pay fees securely
+                                            using integrated payment gateways.</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chevron-right text-teal-500 mt-1 mr-2"></i>
+                                        <span><strong>Academic Progress:</strong> Download report cards, view attendance
+                                            records, and check class timetables.</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chevron-right text-teal-500 mt-1 mr-2"></i>
+                                        <span><strong>Homework:</strong> View assigned homework and download attached
+                                            documents.</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chevron-right text-teal-500 mt-1 mr-2"></i>
+                                        <span><strong>Transport:</strong> Track assigned bus routes and vehicle
+                                            details.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </section>
 
@@ -682,26 +1042,28 @@ php artisan queue:work</code></pre>
 
                     <div class="space-y-8">
                         <div class="flex items-start space-x-4">
-                            <div class="w-4 h-4 bg-blue-500 rounded-full mt-2"></div>
+                            <div class="w-4 h-4 bg-emerald-500 rounded-full mt-2"></div>
                             <div class="flex-1">
                                 <div class="bg-white rounded-xl border border-gray-200 p-6">
                                     <div class="flex items-center justify-between mb-4">
-                                        <h3 class="text-xl font-semibold text-gray-900">Q1 2024 - AI Tutor & Analytics
+                                        <h3 class="text-xl font-semibold text-gray-900">Q1 2026 - AI Tutor & Analytics
                                         </h3>
                                         <span
-                                            class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">In
-                                            Development</span>
+                                            class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm font-semibold">Implemented</span>
                                     </div>
                                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                         <ul class="space-y-2 text-gray-600">
-                                            <li><i class="fas fa-robot text-blue-500 mr-2"></i>AI Doubt Solving Bot</li>
-                                            <li><i class="fas fa-brain text-blue-500 mr-2"></i>Adaptive Learning Paths
+                                            <li><i class="fas fa-robot text-emerald-500 mr-2"></i>AI Doubt Solving Bot
+                                            </li>
+                                            <li><i class="fas fa-brain text-emerald-500 mr-2"></i>Adaptive Learning
+                                                Paths
                                             </li>
                                         </ul>
                                         <ul class="space-y-2 text-gray-600">
-                                            <li><i class="fas fa-chart-line text-blue-500 mr-2"></i>Performance
+                                            <li><i class="fas fa-chart-line text-emerald-500 mr-2"></i>Performance
                                                 Prediction</li>
-                                            <li><i class="fas fa-cogs text-blue-500 mr-2"></i>Smart Timetable Generator
+                                            <li><i class="fas fa-cogs text-emerald-500 mr-2"></i>Smart Timetable
+                                                Generator
                                             </li>
                                         </ul>
                                     </div>
@@ -710,25 +1072,26 @@ php artisan queue:work</code></pre>
                         </div>
 
                         <div class="flex items-start space-x-4">
-                            <div class="w-4 h-4 bg-green-500 rounded-full mt-2"></div>
+                            <div class="w-4 h-4 bg-emerald-500 rounded-full mt-2"></div>
                             <div class="flex-1">
                                 <div class="bg-white rounded-xl border border-gray-200 p-6">
                                     <div class="flex items-center justify-between mb-4">
-                                        <h3 class="text-xl font-semibold text-gray-900">Q2 2024 - Mobile Apps</h3>
+                                        <h3 class="text-xl font-semibold text-gray-900">Q2 2026 - Mobile Apps</h3>
                                         <span
-                                            class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">Planned</span>
+                                            class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm font-semibold">Implemented</span>
                                     </div>
                                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                         <ul class="space-y-2 text-gray-600">
-                                            <li><i class="fas fa-mobile-alt text-green-500 mr-2"></i>Parent App
+                                            <li><i class="fas fa-mobile-alt text-emerald-500 mr-2"></i>Parent App
                                                 (iOS/Android)</li>
-                                            <li><i class="fas fa-chalkboard-teacher text-green-500 mr-2"></i>Teacher App
+                                            <li><i class="fas fa-chalkboard-teacher text-emerald-500 mr-2"></i>Teacher
+                                                App
                                             </li>
                                         </ul>
                                         <ul class="space-y-2 text-gray-600">
-                                            <li><i class="fas fa-bell text-green-500 mr-2"></i>Instant Homework
+                                            <li><i class="fas fa-bell text-emerald-500 mr-2"></i>Instant Homework
                                                 Notifications</li>
-                                            <li><i class="fas fa-bus text-green-500 mr-2"></i>Live Bus Tracking</li>
+                                            <li><i class="fas fa-bus text-emerald-500 mr-2"></i>Live Bus Tracking</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -736,26 +1099,87 @@ php artisan queue:work</code></pre>
                         </div>
 
                         <div class="flex items-start space-x-4">
-                            <div class="w-4 h-4 bg-purple-500 rounded-full mt-2"></div>
+                            <div class="w-4 h-4 bg-emerald-500 rounded-full mt-2"></div>
                             <div class="flex-1">
                                 <div class="bg-white rounded-xl border border-gray-200 p-6">
                                     <div class="flex items-center justify-between mb-4">
-                                        <h3 class="text-xl font-semibold text-gray-900">Q3 2024 - LMS Integration</h3>
+                                        <h3 class="text-xl font-semibold text-gray-900">Q3 2026 - LMS Integration</h3>
                                         <span
-                                            class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold">Planned</span>
+                                            class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm font-semibold">Implemented</span>
                                     </div>
                                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                         <ul class="space-y-2 text-gray-600">
-                                            <li><i class="fas fa-video text-purple-500 mr-2"></i>Live Classes
+                                            <li><i class="fas fa-video text-emerald-500 mr-2"></i>Live Classes
                                                 (Zoom/Meet)</li>
-                                            <li><i class="fas fa-file-pdf text-purple-500 mr-2"></i>E-Library & Notes
+                                            <li><i class="fas fa-file-pdf text-emerald-500 mr-2"></i>E-Library & Notes
                                             </li>
                                         </ul>
                                         <ul class="space-y-2 text-gray-600">
-                                            <li><i class="fas fa-question text-purple-500 mr-2"></i>Online Quiz Module
+                                            <li><i class="fas fa-question text-emerald-500 mr-2"></i>Online Quiz Module
                                             </li>
-                                            <li><i class="fas fa-certificate text-purple-500 mr-2"></i>Course
+                                            <li><i class="fas fa-certificate text-emerald-500 mr-2"></i>Course
                                                 Certification</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-4 h-4 bg-emerald-500 rounded-full mt-2"></div>
+                            <div class="flex-1">
+                                <div class="bg-white rounded-xl border border-gray-200 p-6">
+                                    <div class="flex items-center justify-between mb-4">
+                                        <h3 class="text-xl font-semibold text-gray-900">Q4 2026 - Enhanced Security &
+                                            Compliance
+                                        </h3>
+                                        <span
+                                            class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm font-semibold">Implemented</span>
+                                    </div>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <ul class="space-y-2 text-gray-600">
+                                            <li><i class="fas fa-shield-alt text-emerald-500 mr-2"></i>Advanced Threat
+                                                Detection</li>
+                                            <li><i class="fas fa-file-contract text-emerald-500 mr-2"></i>Continuous
+                                                Compliance Audits</li>
+                                        </ul>
+                                        <ul class="space-y-2 text-gray-600">
+                                            <li><i class="fas fa-database text-emerald-500 mr-2"></i>Customizable Data
+                                                Retention</li>
+                                            <li><i class="fas fa-lock text-emerald-500 mr-2"></i>Secure API Access
+                                                Controls</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2027 Vision -->
+                        <div class="flex items-start space-x-4">
+                            <div class="w-4 h-4 bg-blue-500 rounded-full mt-2 animate-pulse"></div>
+                            <div class="flex-1">
+                                <div
+                                    class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl border border-blue-200 p-6">
+                                    <div class="flex items-center justify-between mb-4">
+                                        <h3 class="text-xl font-semibold text-gray-900">2027 Strategic Vision</h3>
+                                        <span
+                                            class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">In
+                                            Planning</span>
+                                    </div>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <ul class="space-y-2 text-gray-600">
+                                            <li><i class="fas fa-link text-blue-500 mr-2"></i><strong>Blockchain
+                                                    Credentials:</strong> Tamper-proof digital diplomas and
+                                                certificates.</li>
+                                            <li><i class="fas fa-wifi text-blue-500 mr-2"></i><strong>IoT Smart
+                                                    Campus:</strong> Automated attendance via RFID gates and energy
+                                                management.</li>
+                                        </ul>
+                                        <ul class="space-y-2 text-gray-600">
+                                            <li><i class="fas fa-language text-blue-500 mr-2"></i><strong>AI Voice
+                                                    Assistant:</strong> Voice-command navigation for the dashboard.</li>
+                                            <li><i class="fas fa-chart-pie text-blue-500 mr-2"></i><strong>Predictive
+                                                    Retention:</strong> AI models to identify at-risk students early.
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -763,7 +1187,6 @@ php artisan queue:work</code></pre>
                         </div>
                     </div>
                 </section>
-
                 <section id="faq" class="mb-16" data-aos="fade-up">
                     <h2 class="text-3xl font-bold text-gray-900 mb-6 flex items-center">
                         <i class="fas fa-question-circle text-orange-500 mr-3"></i>
@@ -799,7 +1222,7 @@ php artisan queue:work</code></pre>
                             <div class="hidden px-6 pb-4" id="faq2-content">
                                 <p class="text-gray-600">
                                     Yes, our responsive web portal works on mobile browsers. Dedicated iOS and Android
-                                    apps for Parents and Teachers are scheduled for release in Q2 2024.
+                                    apps for Parents and Teachers are scheduled for release in Q2 2026.
                                 </p>
                             </div>
                         </div>
@@ -870,7 +1293,6 @@ php artisan queue:work</code></pre>
                         </div>
                     </div>
                 </section>
-
                 <section class="text-center py-12" data-aos="fade-up">
                     <div class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
                         <h2 class="text-3xl font-bold mb-4">Digitize Your Campus Today</h2>
