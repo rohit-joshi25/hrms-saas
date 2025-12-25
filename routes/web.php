@@ -13,13 +13,13 @@ Route::get('/', function () {
     return view('presentation');
 })->name('home');
 
-Route::get('/documentation', function () {
-    return view('documentation');
+Route::get('/project-docs', function () {
+    return view('project-docs');
 })->name('project-docs');
 
-Route::get('/welcome', function () {
-    return redirect('/');
-})->name('welcome');
+Route::get('/documentation', function () {
+    return view('documentation');
+})->name('documentation');
 
 
 /*

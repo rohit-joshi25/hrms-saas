@@ -61,7 +61,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex items-center space-x-4">
-                    <a href="{{ route('welcome') }}" class="flex items-center space-x-3">
+                    <a href="{{ route('home') }}" class="flex items-center space-x-3">
                         <div
                             class="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                             <i class="fas fa-graduation-cap text-white text-sm"></i>
@@ -72,7 +72,7 @@
                     <span class="text-lg font-semibold text-blue-600">Comprehensive Documentation</span>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <a href="{{ route('welcome') }}" class="text-gray-600 hover:text-blue-600 transition-colors">
+                    <a href="{{ route('home') }}" class="text-gray-600 hover:text-blue-600 transition-colors">
                         <i class="fas fa-home mr-2"></i>Home
                     </a>
                     <a href="{{ route('login') }}"

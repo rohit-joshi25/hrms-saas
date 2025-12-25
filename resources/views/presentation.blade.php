@@ -15,6 +15,7 @@
 
     <!-- Styles -->
     <script src="https://cdn.tailwindcss.com"></script>
+
     <script>
         tailwind.config = {
             theme: {
@@ -120,7 +121,9 @@
                     Your Integrated Multi-Branch Campus Solution
                 </p>
                 <p class="text-lg md:text-xl mb-12 text-gray-400 max-w-3xl mx-auto">
-                    Transforming educational institutions with a comprehensive, AI-powered ERP platform that unifies academic, administrative, and financial operations across multiple branches and academic sessions. Experience seamless management and data-driven insights.
+                    Transforming educational institutions with a comprehensive, AI-powered ERP platform that unifies
+                    academic, administrative, and financial operations across multiple branches and academic sessions.
+                    Experience seamless management and data-driven insights.
                 </p>
             </div>
 
@@ -167,13 +170,14 @@
     <section id="overview" class="py-20 bg-black/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16" data-aos="fade-up">
-                    <h2
-                        class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                        Project Overview
-                    </h2>
-                    <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                        Understanding the vision behind Smart School ERP and our commitment to transforming education management
-                    </p>
+                <h2
+                    class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                    Project Overview
+                </h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                    Understanding the vision behind Smart School ERP and our commitment to transforming education
+                    management
+                </p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -189,8 +193,10 @@
                         </div>
                         <p class="text-gray-300 leading-relaxed">
                             Enterprise Resource Planning (ERP) in an educational context is a comprehensive system that
-                            manages all aspects of a school's operations, from academic management and student information
-                            to financial processes, human resources, and facilities. Smart School ERP integrates these diverse
+                            manages all aspects of a school's operations, from academic management and student
+                            information
+                            to financial processes, human resources, and facilities. Smart School ERP integrates these
+                            diverse
                             functions into a single, cohesive, multi-tenant platform.
                         </p>
                     </div>
@@ -207,10 +213,13 @@
                             <h3 class="text-2xl font-bold">Why Smart School Technologies?</h3>
                         </div>
                         <p class="text-gray-300 leading-relaxed">
-                            Smart School Technologies is dedicated to empowering educational institutions with cutting-edge
-                            technology. Our ERP system is designed to automate routine tasks, provide actionable insights,
+                            Smart School Technologies is dedicated to empowering educational institutions with
+                            cutting-edge
+                            technology. Our ERP system is designed to automate routine tasks, provide actionable
+                            insights,
                             and foster a collaborative environment for administrators, teachers, students, and parents.
-                            With multi-branch support and advanced AI features, we are revolutionizing campus management.
+                            With multi-branch support and advanced AI features, we are revolutionizing campus
+                            management.
                         </p>
                     </div>
                 </div>
@@ -226,8 +235,10 @@
                             <h4 class="text-xl font-bold">Our Mission</h4>
                         </div>
                         <p class="text-gray-300">
-                            To democratize advanced education management technology and make intelligent campus operations accessible
-                            to institutions of all sizes through our innovative SaaS platform, featuring multi-branch capabilities and AI integration.
+                            To democratize advanced education management technology and make intelligent campus
+                            operations accessible
+                            to institutions of all sizes through our innovative SaaS platform, featuring multi-branch
+                            capabilities and AI integration.
                         </p>
                     </div>
                     <div
@@ -237,8 +248,10 @@
                             <h4 class="text-xl font-bold">Our Vision</h4>
                         </div>
                         <p class="text-gray-300">
-                            To become the world's leading ERP platform for educational institutions, transforming how schools
-                            manage their most valuable assets - their students and staff - through continuous innovation and a focus on data-driven excellence.
+                            To become the world's leading ERP platform for educational institutions, transforming how
+                            schools
+                            manage their most valuable assets - their students and staff - through continuous innovation
+                            and a focus on data-driven excellence.
                         </p>
                     </div>
                 </div>
@@ -269,12 +282,17 @@
                             <i class="fas fa-user-graduate text-white text-2xl"></i>
                         </div>
                         <h3 class="text-xl font-bold mb-3">Student & Admission Management</h3>
-                        <p class="text-gray-400 mb-4">Comprehensive student lifecycle management from enrollment to alumni.</p>
+                        <p class="text-gray-400 mb-4">Comprehensive student lifecycle management from enrollment to
+                            alumni.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Customizable Admission Forms & Workflow</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Detailed Student Profiles & Health Records</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Digital ID Card Generation with QR/Barcode</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Academic Promotions & Alumni Tracking</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Customizable Admission Forms & Workflow
+                            </li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Detailed Student Profiles & Health
+                                Records</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Digital ID Card Generation with
+                                QR/Barcode</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Academic Promotions & Alumni Tracking
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -290,10 +308,14 @@
                         <h3 class="text-xl font-bold mb-3">Academic Management</h3>
                         <p class="text-gray-400 mb-4">Streamlined class, subject, and examination processes.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Multi-level Class, Section & Subject Management</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Dynamic Timetable & Homework Assignment</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Configurable Exam Schedules & Automated Marks Entry</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Centralized Study Materials & Resource Sharing</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Multi-level Class, Section & Subject
+                                Management</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Dynamic Timetable & Homework Assignment
+                            </li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Configurable Exam Schedules & Automated
+                                Marks Entry</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Centralized Study Materials & Resource
+                                Sharing</li>
                         </ul>
                     </div>
                 </div>
@@ -307,12 +329,17 @@
                             <i class="fas fa-wallet text-white text-2xl"></i>
                         </div>
                         <h3 class="text-xl font-bold mb-3">Fee & Financial Management</h3>
-                        <p class="text-gray-400 mb-4">Automated fee collection, expense tracking, and robust reporting.</p>
+                        <p class="text-gray-400 mb-4">Automated fee collection, expense tracking, and robust reporting.
+                        </p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Flexible Fee Structures & Auto-allocations</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Integrated Online Payment Gateways (Stripe, Razorpay)</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Invoicing, Receipts & Due Date Reminders</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Comprehensive Income, Expense & Payroll Management</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Flexible Fee Structures &
+                                Auto-allocations</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Integrated Online Payment Gateways
+                                (Stripe, Razorpay)</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Invoicing, Receipts & Due Date
+                                Reminders</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Comprehensive Income, Expense & Payroll
+                                Management</li>
                         </ul>
                     </div>
                 </div>
@@ -326,11 +353,15 @@
                             <i class="fas fa-chalkboard-teacher text-white text-2xl"></i>
                         </div>
                         <h3 class="text-xl font-bold mb-3">Staff & Payroll Management</h3>
-                        <p class="text-gray-400 mb-4">Efficiently manage all school staff, their attendance, and salaries.</p>
+                        <p class="text-gray-400 mb-4">Efficiently manage all school staff, their attendance, and
+                            salaries.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Centralized Staff Profiles & Role-based Access</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Integrated Teacher & Employee Attendance Tracking</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Customizable Salary Templates & Payslip Generation</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Centralized Staff Profiles & Role-based
+                                Access</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Integrated Teacher & Employee Attendance
+                                Tracking</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Customizable Salary Templates & Payslip
+                                Generation</li>
                             <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Leave Management System</li>
                         </ul>
                     </div>
@@ -345,12 +376,17 @@
                             <i class="fas fa-bus text-white text-2xl"></i>
                         </div>
                         <h3 class="text-xl font-bold mb-3">Transport Management</h3>
-                        <p class="text-gray-400 mb-4">Optimize school transportation with route planning and vehicle tracking.</p>
+                        <p class="text-gray-400 mb-4">Optimize school transportation with route planning and vehicle
+                            tracking.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Comprehensive Vehicle & Driver Management</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Intelligent Route Planning & Stop Management</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Seamless Student Transport Allocation</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Transport Fee Generation & Reporting</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Comprehensive Vehicle & Driver
+                                Management</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Intelligent Route Planning & Stop
+                                Management</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Seamless Student Transport Allocation
+                            </li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Transport Fee Generation &
+                                Reporting</li>
                         </ul>
                     </div>
                 </div>
@@ -366,9 +402,12 @@
                         <h3 class="text-xl font-bold mb-3">Hostel & Accommodation</h3>
                         <p class="text-gray-400 mb-4">Efficiently manage student housing and hostel facilities.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Multi-building Hostel & Room Configuration</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Efficient Student Room Allocation & Vacancy Tracking</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Hostel Fee Generation & Billing</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Multi-building Hostel & Room
+                                Configuration</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Efficient Student Room Allocation &
+                                Vacancy Tracking</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Hostel Fee Generation &
+                                Billing</li>
                             <li><i class="fas fa-check text-green-400 mr-2"></i>Visitor & Mess Management</li>
                         </ul>
                     </div>
@@ -385,10 +424,14 @@
                         <h3 class="text-xl font-bold mb-3">Inventory & Asset Management</h3>
                         <p class="text-gray-400 mb-4">Track and manage school assets, supplies, and stock levels.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Centralized Item Categories, Suppliers & Stores</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Stock In/Out & Low Stock Alerts</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Track School Assets & Maintenance Schedules</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Extensive Inventory Reports & Analytics</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Centralized Item Categories, Suppliers &
+                                Stores</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Automated Stock In/Out & Low Stock
+                                Alerts</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Track School Assets & Maintenance
+                                Schedules</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Extensive Inventory Reports & Analytics
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -404,10 +447,14 @@
                         <h3 class="text-xl font-bold mb-3">Communication & Collaboration</h3>
                         <p class="text-gray-400 mb-4">Seamless communication channels for all stakeholders.</p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Customizable Global & School-specific Notices</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Secure Internal Messaging System for all Roles</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Seamless Email & SMS Communication Integration</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Enhanced Parent-Teacher Interaction & Feedback
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Customizable Global & School-specific
+                                Notices</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Secure Internal Messaging System for all
+                                Roles</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Seamless Email & SMS Communication
+                                Integration</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Enhanced Parent-Teacher Interaction &
+                                Feedback
                         </ul>
                     </div>
                 </div>
@@ -421,12 +468,17 @@
                             <i class="fas fa-lock text-white text-2xl"></i>
                         </div>
                         <h3 class="text-xl font-bold mb-3">Data Security & Privacy</h3>
-                        <p class="text-gray-400 mb-4">Ensuring the highest standards of data protection and compliance.</p>
+                        <p class="text-gray-400 mb-4">Ensuring the highest standards of data protection and compliance.
+                        </p>
                         <ul class="text-sm text-gray-500 space-y-1">
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Industry-standard AES-256 Encryption & Daily Backups</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Granular Role-based Access Control & Permissions</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Adherence to GDPR, CCPA, and Local Data Compliance</li>
-                            <li><i class="fas fa-check text-green-400 mr-2"></i>Comprehensive Audit Trails & Secure Session Management</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Industry-standard AES-256 Encryption &
+                                Daily Backups</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Granular Role-based Access Control &
+                                Permissions</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Adherence to GDPR, CCPA, and Local Data
+                                Compliance</li>
+                            <li><i class="fas fa-check text-green-400 mr-2"></i>Comprehensive Audit Trails & Secure
+                                Session Management</li>
                         </ul>
                     </div>
                 </div>
@@ -576,13 +628,13 @@
     <section id="marketing" class="py-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16" data-aos="fade-up">
-                    <h2
-                        class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-400 to-red-500 bg-clip-text text-transparent">
-                        Our Growth Strategy
-                    </h2>
-                    <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                        Our comprehensive approach to digitizing education and expanding our global footprint
-                    </p>
+                <h2
+                    class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-400 to-red-500 bg-clip-text text-transparent">
+                    Our Growth Strategy
+                </h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                    Our comprehensive approach to digitizing education and expanding our global footprint
+                </p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
@@ -596,7 +648,8 @@
                             </div>
                             <div>
                                 <h4 class="font-semibold mb-2">Freemium & Tiered Subscriptions</h4>
-                                <p class="text-gray-400">Offer flexible plans from free trials to enterprise-grade solutions.</p>
+                                <p class="text-gray-400">Offer flexible plans from free trials to enterprise-grade
+                                    solutions.</p>
                             </div>
                         </div>
                         <div class="flex items-start space-x-4">
@@ -606,7 +659,8 @@
                             </div>
                             <div>
                                 <h4 class="font-semibold mb-2">Global Market Penetration</h4>
-                                <p class="text-gray-400">Strategic expansion into emerging and established educational markets.</p>
+                                <p class="text-gray-400">Strategic expansion into emerging and established educational
+                                    markets.</p>
                             </div>
                         </div>
                         <div class="flex items-start space-x-4">
@@ -616,7 +670,8 @@
                             </div>
                             <div>
                                 <h4 class="font-semibold mb-2">Partnerships & Alliances</h4>
-                                <p class="text-gray-400">Collaborate with ed-tech providers and government initiatives.</p>
+                                <p class="text-gray-400">Collaborate with ed-tech providers and government initiatives.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -657,7 +712,8 @@
                         <i class="fas fa-server text-white text-xl"></i>
                     </div>
                     <h4 class="text-xl font-bold mb-3">Multi-Tenant SaaS Architecture</h4>
-                    <p class="text-gray-400">Scalable cloud infrastructure supporting thousands of schools with complete data
+                    <p class="text-gray-400">Scalable cloud infrastructure supporting thousands of schools with complete
+                        data
                         isolation and custom configurations.</p>
                 </div>
                 <div
@@ -677,7 +733,8 @@
                         <i class="fas fa-globe text-white text-xl"></i>
                     </div>
                     <h4 class="text-xl font-bold mb-3">Global Compliance & Localization</h4>
-                    <p class="text-gray-400">Adherence to international data privacy regulations (GDPR, CCPA) and support for
+                    <p class="text-gray-400">Adherence to international data privacy regulations (GDPR, CCPA) and
+                        support for
                         multi-language interfaces and local currency options.</p>
                 </div>
             </div>
@@ -688,13 +745,13 @@
     <section id="roadmap" class="py-20 bg-black/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16" data-aos="fade-up">
-                    <h2
-                        class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                        Future Roadmap
-                    </h2>
-                    <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                        Our vision for advancing education technology and upcoming innovations for Smart School ERP
-                    </p>
+                <h2
+                    class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+                    Future Roadmap
+                </h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                    Our vision for advancing education technology and upcoming innovations for Smart School ERP
+                </p>
             </div>
 
             <div class="relative">
@@ -720,10 +777,14 @@
                                     </div>
                                 </div>
                                 <ul class="text-gray-400 space-y-2">
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>AI-powered Doubt Solving Bot</li>
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Adaptive Learning Paths & Recommendations</li>
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Predictive Student Performance Analytics</li>
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Automated Timetable Generation (AI-optimized)</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>AI-powered Doubt Solving Bot
+                                    </li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Adaptive Learning Paths &
+                                        Recommendations</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Predictive Student Performance
+                                        Analytics</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Automated Timetable Generation
+                                        (AI-optimized)</li>
                                 </ul>
                             </div>
                         </div>
@@ -755,10 +816,14 @@
                                     </div>
                                 </div>
                                 <ul class="text-gray-400 space-y-2">
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Dedicated iOS & Android Apps for Parents & Teachers</li>
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Offline Access & Real-time Notifications</li>
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Live Bus Tracking & Attendance Marking</li>
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Biometric/Face Recognition for Attendance</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Dedicated iOS & Android Apps
+                                        for Parents & Teachers</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Offline Access & Real-time
+                                        Notifications</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Live Bus Tracking & Attendance
+                                        Marking</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Biometric/Face Recognition for
+                                        Attendance</li>
                                 </ul>
                             </div>
                         </div>
@@ -780,10 +845,14 @@
                                     </div>
                                 </div>
                                 <ul class="text-gray-400 space-y-2">
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Seamless Integration with Popular LMS Platforms</li>
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Online Quiz & Assignment Modules</li>
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Virtual Classroom & Live Class Hosting</li>
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Digital Library & Resource Sharing</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Seamless Integration with
+                                        Popular LMS Platforms</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Online Quiz & Assignment
+                                        Modules</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Virtual Classroom & Live Class
+                                        Hosting</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Digital Library & Resource
+                                        Sharing</li>
                                 </ul>
                             </div>
                         </div>
@@ -815,10 +884,14 @@
                                     </div>
                                 </div>
                                 <ul class="text-gray-400 space-y-2">
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Advanced Threat Detection & Prevention</li>
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Continuous Compliance Audits (GDPR, CCPA, FERPA)</li>
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Customizable Data Retention Policies</li>
-                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Secure API Access & Integration Controls</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Advanced Threat Detection &
+                                        Prevention</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Continuous Compliance Audits
+                                        (GDPR, CCPA, FERPA)</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Customizable Data Retention
+                                        Policies</li>
+                                    <li><i class="fas fa-check text-emerald-400 mr-2"></i>Secure API Access &
+                                        Integration Controls</li>
                                 </ul>
                             </div>
                         </div>
@@ -893,7 +966,8 @@
                     <h4 class="font-semibold mb-4">Support</h4>
                     <ul class="space-y-2 text-sm text-gray-400">
                         <li><a href="#" class="hover:text-white transition-colors">Help Center</a></li>
-                        <li><a href="{{ route('project-docs') }}" class="hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="{{ route('project-docs') }}"
+                                class="hover:text-white transition-colors">Documentation</a></li>
                         <li><a href="#" class="hover:text-white transition-colors">API Reference</a></li>
                         <li><a href="#" class="hover:text-white transition-colors">Status</a></li>
                     </ul>
