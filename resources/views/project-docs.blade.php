@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pre-Project Documentation - SavantX HRMS</title>
+    <title>Project Documentation - School Management System</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -30,17 +30,17 @@
                 <div class="flex items-center space-x-4">
                     <a href="{{ route('home') }}" class="flex items-center space-x-3">
                         <div class="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                            <i class="fas fa-users text-white text-sm"></i>
+                            <i class="fas fa-graduation-cap text-white text-sm"></i>
                         </div>
-                        <span class="text-xl font-bold text-gray-900">SavantX HRMS</span>
+                        <span class="text-xl font-bold text-gray-900">School Management System</span>
                     </a>
                     <span class="text-gray-400">|</span>
-                    <span class="text-lg font-semibold text-blue-600">Pre-Project Documentation</span>
+                    <span class="text-lg font-semibold text-blue-600">Project Documentation</span>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <a href="{{ route('home') }}" class="text-gray-600 hover:text-blue-600 transition-colors">
-                        <i class="fas fa-home mr-2"></i>Home
-                    </a>
+                <a href="{{ route('home') }}" class="text-gray-600 hover:text-blue-600 transition-colors">
+    <i class="fas fa-home mr-2"></i>Home
+</a>
                     <a href="{{ route('documentation') }}" class="text-gray-600 hover:text-blue-600 transition-colors">
                         <i class="fas fa-book mr-2"></i>User Docs
                     </a>
@@ -62,14 +62,14 @@
                 </span>
             </div>
             <h1 class="text-4xl md:text-5xl font-bold mb-4">
-                AI-Powered HRMS SaaS
+                Smart School Management System
             </h1>
             <h2 class="text-2xl md:text-3xl font-light text-blue-200 mb-6">
-                Pre-Project Documentation & Requirements
+                Project Documentation & Requirements
             </h2>
             <p class="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
-                Comprehensive project specification for building enterprise-level Human Resource Management System
-                serving 100,000+ companies with AI-powered automation and multi-tenant architecture.
+                Comprehensive project specification for building an enterprise-level School Management System
+                to streamline academic, administrative, and financial operations for educational institutions.
             </p>
         </div>
     </div>
@@ -90,16 +90,16 @@
                         <h3 class="text-xl font-semibold text-gray-900 mb-4">Project Specifications</h3>
                         <div class="space-y-4 text-gray-700">
                             <div class="bg-white rounded-lg p-4 border border-blue-200">
-                                <p><strong>Project Name:</strong> AI-Powered HRMS by SavantX Technologies</p>
-                                <p><strong>Project Type:</strong> Enterprise SaaS Platform</p>
-                                <p><strong>Industry:</strong> Human Resource Management Technology</p>
-                                <p><strong>Business Model:</strong> B2B SaaS with Multi-Tenant Architecture</p>
+                                <p><strong>Project Name:</strong> School Management System</p>
+                                <p><strong>Project Type:</strong> Educational ERP Platform</p>
+                                <p><strong>Industry:</strong> Education Technology (EdTech)</p>
+                                <p><strong>Business Model:</strong> Institutional License / SaaS</p>
                             </div>
                             <div class="bg-white rounded-lg p-4 border border-blue-200">
-                                <p><strong>Target Market:</strong> Small to Enterprise businesses (10-50,000 employees)</p>
-                                <p><strong>Geographic Scope:</strong> Global with multi-region deployment</p>
-                                <p><strong>Revenue Model:</strong> Subscription-based with tiered pricing</p>
-                                <p><strong>Competitive Advantage:</strong> AI-first approach with advanced automation</p>
+                                <p><strong>Target Market:</strong> K-12 Schools, Colleges, Universities</p>
+                                <p><strong>User Base:</strong> Admins, Teachers, Students, Parents, Accountants</p>
+                                <p><strong>Deployment:</strong> Cloud-based or On-Premise</p>
+                                <p><strong>Core Focus:</strong> Automation of Academic & Admin Processes</p>
                             </div>
                         </div>
                     </div>
@@ -109,29 +109,29 @@
                             <div class="flex items-start">
                                 <i class="fas fa-target text-blue-500 mr-3 mt-1"></i>
                                 <div>
-                                    <strong>Primary Goal:</strong> Capture 5% of global HRMS market share
-                                    <p class="text-sm text-gray-600">Targeting $500M ARR by Year 5 in a $10B+ market</p>
+                                    <strong>Primary Goal:</strong> Streamline School Administration
+                                    <p class="text-sm text-gray-600">Reduce manual paperwork by 90% and improve efficiency</p>
                                 </div>
                             </div>
                             <div class="flex items-start">
                                 <i class="fas fa-users text-green-500 mr-3 mt-1"></i>
                                 <div>
-                                    <strong>Scale Target:</strong> 100,000+ companies, 10M+ employees managed
-                                    <p class="text-sm text-gray-600">Supporting organizations from 10 to 50,000+ employees</p>
+                                    <strong>Stakeholder Connectivity:</strong> Connect Parents, Teachers & Students
+                                    <p class="text-sm text-gray-600">Real-time communication and progress tracking</p>
                                 </div>
                             </div>
                             <div class="flex items-start">
                                 <i class="fas fa-globe text-purple-500 mr-3 mt-1"></i>
                                 <div>
-                                    <strong>Global Reach:</strong> Multi-region deployment with local compliance
-                                    <p class="text-sm text-gray-600">North America, Europe, Asia-Pacific, emerging markets</p>
+                                    <strong>Digital Transformation:</strong> Paperless Campus Operations
+                                    <p class="text-sm text-gray-600">Digitize admission, fees, exams, and library records</p>
                                 </div>
                             </div>
                             <div class="flex items-start">
                                 <i class="fas fa-rocket text-red-500 mr-3 mt-1"></i>
                                 <div>
-                                    <strong>Innovation Leadership:</strong> First AI-native HRMS platform
-                                    <p class="text-sm text-gray-600">Setting new industry standards for automation and insights</p>
+                                    <strong>Financial Control:</strong> Zero Leakage Fee Management
+                                    <p class="text-sm text-gray-600">Automated invoicing, reminders, and online payments</p>
                                 </div>
                             </div>
                         </div>
@@ -146,9 +146,9 @@
                             Our Vision
                         </h4>
                         <p class="text-gray-700">
-                            To become the world's leading AI-powered HRMS platform, transforming how organizations
-                            manage their workforce through intelligent automation, predictive analytics, and seamless
-                            user experiences that drive employee engagement and business growth.
+                            To revolutionize the educational ecosystem by providing a seamless, integrated platform
+                            that bridges the gap between administration, academics, and stakeholders, fostering an
+                            environment focused on student growth and institutional excellence.
                         </p>
                     </div>
                     <div class="bg-gradient-to-br from-green-100 to-emerald-100 rounded-lg p-6">
@@ -157,9 +157,9 @@
                             Our Mission
                         </h4>
                         <p class="text-gray-700">
-                            To democratize advanced HR technology by providing an accessible, scalable, and intelligent
-                            HRMS solution that empowers organizations of all sizes to optimize their human capital
-                            management and achieve operational excellence.
+                            To empower educational institutions with cutting-edge technology that simplifies complex
+                            administrative tasks, ensures financial transparency, and enhances the learning experience
+                            through data-driven insights and efficient resource management.
                         </p>
                     </div>
                 </div>
@@ -177,55 +177,55 @@
                 <div class="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl border border-red-200 p-8">
                     <h3 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                         <i class="fas fa-exclamation-triangle text-red-500 mr-3"></i>
-                        Current Market Problems
+                        Challenges in Education Management
                     </h3>
 
                     <div class="space-y-6">
                         <div class="bg-white rounded-lg p-4 border-l-4 border-red-500">
-                            <h4 class="font-semibold text-gray-900 mb-2">Fragmented Systems</h4>
+                            <h4 class="font-semibold text-gray-900 mb-2">Manual Data Management</h4>
                             <p class="text-gray-700 text-sm mb-2">
-                                Companies use 5-15 different tools for HR functions: separate systems for payroll,
-                                attendance, performance, recruitment, and employee data management.
+                                Schools rely on physical registers and spreadsheets for attendance, marks, and fees,
+                                leading to data redundancy and loss.
                             </p>
-                            <p class="text-red-600 text-sm"><strong>Impact:</strong> Data silos, integration costs, training overhead</p>
+                            <p class="text-red-600 text-sm"><strong>Impact:</strong> High administrative burden, data errors</p>
                         </div>
 
                         <div class="bg-white rounded-lg p-4 border-l-4 border-orange-500">
-                            <h4 class="font-semibold text-gray-900 mb-2">Manual Processes</h4>
+                            <h4 class="font-semibold text-gray-900 mb-2">Communication Gaps</h4>
                             <p class="text-gray-700 text-sm mb-2">
-                                90% of HR tasks still require manual intervention: leave approvals, payroll calculations,
-                                performance reviews, and compliance reporting.
+                                Lack of real-time updates to parents regarding student attendance, homework, and
+                                performance creates a disconnect.
                             </p>
-                            <p class="text-orange-600 text-sm"><strong>Impact:</strong> Human errors, delays, compliance risks</p>
+                            <p class="text-orange-600 text-sm"><strong>Impact:</strong> Reduced parental engagement</p>
                         </div>
 
                         <div class="bg-white rounded-lg p-4 border-l-4 border-yellow-500">
-                            <h4 class="font-semibold text-gray-900 mb-2">Lack of Intelligence</h4>
+                            <h4 class="font-semibold text-gray-900 mb-2">Fee Collection Issues</h4>
                             <p class="text-gray-700 text-sm mb-2">
-                                Current solutions provide basic reporting but lack predictive analytics, AI insights,
-                                or intelligent automation capabilities.
+                                Tracking pending fees, generating invoices, and reconciling payments manually is
+                                prone to errors and delays.
                             </p>
-                            <p class="text-yellow-600 text-sm"><strong>Impact:</strong> Reactive decisions, missed opportunities</p>
+                            <p class="text-yellow-600 text-sm"><strong>Impact:</strong> Revenue leakage, cash flow issues</p>
                         </div>
 
                         <div class="bg-white rounded-lg p-4 border-l-4 border-purple-500">
-                            <h4 class="font-semibold text-gray-900 mb-2">Scalability Limitations</h4>
+                            <h4 class="font-semibold text-gray-900 mb-2">Exam & Result Chaos</h4>
                             <p class="text-gray-700 text-sm mb-2">
-                                Existing solutions struggle with rapid growth, requiring expensive migrations and
-                                custom development for enterprise features.
+                                Manual scheduling of exams and calculation of grades/report cards is time-consuming
+                                and stressful for teachers.
                             </p>
-                            <p class="text-purple-600 text-sm"><strong>Impact:</strong> Migration costs, downtime, feature limitations</p>
+                            <p class="text-purple-600 text-sm"><strong>Impact:</strong> Delayed results, teacher burnout</p>
                         </div>
                     </div>
 
                     <div class="mt-8 grid grid-cols-2 gap-4">
                         <div class="bg-red-100 rounded-lg p-4 text-center">
-                            <div class="text-3xl font-bold text-red-600 mb-1">40%</div>
-                            <div class="text-sm text-gray-600">HR Time Wasted on Manual Tasks</div>
+                            <div class="text-3xl font-bold text-red-600 mb-1">60%</div>
+                            <div class="text-sm text-gray-600">Admin Time on Paperwork</div>
                         </div>
                         <div class="bg-orange-100 rounded-lg p-4 text-center">
-                            <div class="text-3xl font-bold text-orange-600 mb-1">$75K+</div>
-                            <div class="text-sm text-gray-600">Annual Inefficiency Cost per 100 Employees</div>
+                            <div class="text-3xl font-bold text-orange-600 mb-1">15%</div>
+                            <div class="text-sm text-gray-600">Revenue Lost in Uncollected Fees</div>
                         </div>
                     </div>
                 </div>
@@ -234,55 +234,55 @@
                 <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl border border-green-200 p-8">
                     <h3 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                         <i class="fas fa-lightbulb text-green-500 mr-3"></i>
-                        SavantX HRMS Solution
+                        Our Solution
                     </h3>
 
                     <div class="space-y-6">
                         <div class="bg-white rounded-lg p-4 border-l-4 border-green-500">
-                            <h4 class="font-semibold text-gray-900 mb-2">Unified Platform</h4>
+                            <h4 class="font-semibold text-gray-900 mb-2">Integrated Campus Management</h4>
                             <p class="text-gray-700 text-sm mb-2">
-                                Single integrated platform handling all HR functions with real-time data synchronization
-                                across modules and intelligent workflow automation.
+                                A single platform connecting Academics, Administration, Library, Transport, and Finance
+                                for seamless data flow and operations.
                             </p>
-                            <p class="text-green-600 text-sm"><strong>Benefit:</strong> 90% reduction in tool complexity</p>
+                            <p class="text-green-600 text-sm"><strong>Benefit:</strong> Centralized control & efficiency</p>
                         </div>
 
                         <div class="bg-white rounded-lg p-4 border-l-4 border-blue-500">
-                            <h4 class="font-semibold text-gray-900 mb-2">AI-First Architecture</h4>
+                            <h4 class="font-semibold text-gray-900 mb-2">Smart Automation</h4>
                             <p class="text-gray-700 text-sm mb-2">
-                                Built-in machine learning for resume screening, predictive analytics for employee retention,
-                                and intelligent chatbot for instant HR support.
+                                Automated attendance reports, fee reminders, result generation, and timetable scheduling
+                                to reduce manual workload.
                             </p>
-                            <p class="text-blue-600 text-sm"><strong>Benefit:</strong> 75% faster decision making</p>
+                            <p class="text-blue-600 text-sm"><strong>Benefit:</strong> 80% time savings for staff</p>
                         </div>
 
                         <div class="bg-white rounded-lg p-4 border-l-4 border-purple-500">
-                            <h4 class="font-semibold text-gray-900 mb-2">Multi-Tenant Scalability</h4>
+                            <h4 class="font-semibold text-gray-900 mb-2">Parent & Student Portals</h4>
                             <p class="text-gray-700 text-sm mb-2">
-                                Cloud-native architecture with automatic scaling, supporting unlimited companies
-                                with complete data isolation and custom configurations.
+                                Dedicated dashboards for parents to track attendance, marks, and pay fees, and for
+                                students to access homework and schedules.
                             </p>
-                            <p class="text-purple-600 text-sm"><strong>Benefit:</strong> Scales from 10 to 50,000+ employees seamlessly</p>
+                            <p class="text-purple-600 text-sm"><strong>Benefit:</strong> Enhanced engagement & transparency</p>
                         </div>
 
                         <div class="bg-white rounded-lg p-4 border-l-4 border-indigo-500">
-                            <h4 class="font-semibold text-gray-900 mb-2">Enterprise Security</h4>
+                            <h4 class="font-semibold text-gray-900 mb-2">Secure & Scalable</h4>
                             <p class="text-gray-700 text-sm mb-2">
-                                SOC 2 Type II certified with end-to-end encryption, role-based access control,
-                                and comprehensive audit logging for compliance.
+                                Role-based access control (RBAC) ensures data privacy, scalable architecture supports
+                                institutions of any size.
                             </p>
-                            <p class="text-indigo-600 text-sm"><strong>Benefit:</strong> Enterprise-ready from day one</p>
+                            <p class="text-indigo-600 text-sm"><strong>Benefit:</strong> Data security & peace of mind</p>
                         </div>
                     </div>
 
                     <div class="mt-8 grid grid-cols-2 gap-4">
                         <div class="bg-green-100 rounded-lg p-4 text-center">
-                            <div class="text-3xl font-bold text-green-600 mb-1">85%</div>
-                            <div class="text-sm text-gray-600">Expected Cost Reduction</div>
+                            <div class="text-3xl font-bold text-green-600 mb-1">95%</div>
+                            <div class="text-sm text-gray-600">Paperwork Reduction</div>
                         </div>
                         <div class="bg-blue-100 rounded-lg p-4 text-center">
-                            <div class="text-3xl font-bold text-blue-600 mb-1">350%</div>
-                            <div class="text-sm text-gray-600">Projected ROI within 12 months</div>
+                            <div class="text-3xl font-bold text-blue-600 mb-1">100%</div>
+                            <div class="text-sm text-gray-600">Fee Tracking Accuracy</div>
                         </div>
                     </div>
                 </div>
@@ -293,20 +293,20 @@
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Market Opportunity</h3>
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
                     <div>
-                        <div class="text-3xl font-bold text-indigo-600 mb-2">$12.9B</div>
-                        <div class="text-sm text-gray-600">Global HRMS Market Size (2024)</div>
+                        <div class="text-3xl font-bold text-indigo-600 mb-2">$30B+</div>
+                        <div class="text-sm text-gray-600">Global EdTech Market</div>
                     </div>
                     <div>
-                        <div class="text-3xl font-bold text-purple-600 mb-2">8.7%</div>
-                        <div class="text-sm text-gray-600">Annual Market Growth Rate</div>
+                        <div class="text-3xl font-bold text-purple-600 mb-2">15%</div>
+                        <div class="text-sm text-gray-600">Annual Growth Rate</div>
                     </div>
                     <div>
-                        <div class="text-3xl font-bold text-blue-600 mb-2">2.3M+</div>
-                        <div class="text-sm text-gray-600">Target Companies Globally</div>
+                        <div class="text-3xl font-bold text-blue-600 mb-2">1M+</div>
+                        <div class="text-sm text-gray-600">Schools & Colleges</div>
                     </div>
                     <div>
-                        <div class="text-3xl font-bold text-green-600 mb-2">$500M</div>
-                        <div class="text-sm text-gray-600">Our 5-Year ARR Target</div>
+                        <div class="text-3xl font-bold text-green-600 mb-2">High</div>
+                        <div class="text-sm text-gray-600">Demand for Digitalization</div>
                     </div>
                 </div>
             </div>
@@ -315,21 +315,21 @@
         <!-- Comprehensive Feature Documentation -->
         <section class="mb-16" data-aos="fade-up">
             <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
-                Comprehensive Feature Documentation (75+ Features)
+                Comprehensive Feature Documentation
             </h2>
 
             <!-- Core HR Modules -->
             <div class="space-y-8">
 
-                <!-- Employee Management Module -->
+                <!-- Student Information System -->
                 <div class="bg-white rounded-xl border border-gray-200 p-8">
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-blue-500 rounded-xl flex items-center justify-center mr-4">
-                            <i class="fas fa-users text-white text-2xl"></i>
+                            <i class="fas fa-user-graduate text-white text-2xl"></i>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold text-gray-900">Employee Management Module</h3>
-                            <p class="text-gray-600">Complete employee lifecycle management from hire to retire</p>
+                            <h3 class="text-2xl font-bold text-gray-900">Student Information System</h3>
+                            <p class="text-gray-600">Complete student lifecycle management from admission to alumni</p>
                         </div>
                     </div>
 
@@ -337,204 +337,204 @@
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-3">Core Features</h4>
                             <ul class="space-y-2 text-gray-600 text-sm">
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Employee profile management</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Organizational structure (departments, designations)</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Employee onboarding workflows</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Document management & storage</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Employee directory & search</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Bulk employee import/export</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Online Admission Form</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Student Profile Management</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Class & Section Allocation</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Parent/Guardian Details</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Document Uploads</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>ID Card Generation</li>
                             </ul>
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-3">Advanced Features</h4>
                             <ul class="space-y-2 text-gray-600 text-sm">
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Custom employee fields</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Employee lifecycle tracking</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Automated workflows</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Integration with external systems</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Advanced reporting & analytics</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Employee self-service portal</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Student Promotion Logic</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Alumni Management</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Sibling Mapping</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Bulk Import/Export</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Student History Tracking</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Custom Fields</li>
                             </ul>
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-3">Business Impact</h4>
                             <div class="space-y-3">
                                 <div class="bg-blue-50 rounded-lg p-3">
-                                    <div class="text-lg font-bold text-blue-600">60%</div>
-                                    <div class="text-xs text-gray-600">Faster onboarding</div>
+                                    <div class="text-lg font-bold text-blue-600">100%</div>
+                                    <div class="text-xs text-gray-600">Digital Records</div>
                                 </div>
                                 <div class="bg-green-50 rounded-lg p-3">
-                                    <div class="text-lg font-bold text-green-600">90%</div>
-                                    <div class="text-xs text-gray-600">Data accuracy</div>
+                                    <div class="text-lg font-bold text-green-600">50%</div>
+                                    <div class="text-xs text-gray-600">Faster Admissions</div>
                                 </div>
                                 <div class="bg-purple-50 rounded-lg p-3">
-                                    <div class="text-lg font-bold text-purple-600">50%</div>
-                                    <div class="text-xs text-gray-600">Admin time saved</div>
+                                    <div class="text-lg font-bold text-purple-600">360°</div>
+                                    <div class="text-xs text-gray-600">Student View</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Attendance & Time Tracking Module -->
+                <!-- Academic Management -->
                 <div class="bg-white rounded-xl border border-gray-200 p-8">
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-green-500 rounded-xl flex items-center justify-center mr-4">
-                            <i class="fas fa-fingerprint text-white text-2xl"></i>
+                            <i class="fas fa-book-open text-white text-2xl"></i>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold text-gray-900">Advanced Attendance & Time Tracking</h3>
-                            <p class="text-gray-600">Multi-modal attendance tracking with intelligent automation</p>
+                            <h3 class="text-2xl font-bold text-gray-900">Academic Management</h3>
+                            <p class="text-gray-600">Streamlining curriculum, timetables, and daily academic activities</p>
                         </div>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div>
-                            <h4 class="font-semibold text-gray-900 mb-3">Tracking Methods</h4>
+                            <h4 class="font-semibold text-gray-900 mb-3">Curriculum & Classes</h4>
                             <ul class="space-y-2 text-gray-600 text-sm">
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Biometric fingerprint scanning</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Face recognition technology</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>GPS-based location tracking</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Manual clock-in with approval</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Web-based time tracking</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Mobile app integration</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Subject Management</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Class Routine/Timetable</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Syllabus Planning</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Lesson Plans</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Homework/Assignment</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Study Material Upload</li>
                             </ul>
                         </div>
                         <div>
-                            <h4 class="font-semibold text-gray-900 mb-3">Smart Features</h4>
+                            <h4 class="font-semibold text-gray-900 mb-3">Attendance & Tracking</h4>
                             <ul class="space-y-2 text-gray-600 text-sm">
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Automatic overtime calculation</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Shift pattern recognition</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Break time monitoring</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Late arrival notifications</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Attendance policy enforcement</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Real-time attendance dashboard</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Student Attendance (Daily/Subject-wise)</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Teacher Attendance</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Biometric Integration</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Absentee SMS Notification</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Monthly Attendance Reports</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Leave Management</li>
                             </ul>
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-3">ROI Metrics</h4>
                             <div class="space-y-3">
                                 <div class="bg-green-50 rounded-lg p-3">
-                                    <div class="text-lg font-bold text-green-600">95%</div>
-                                    <div class="text-xs text-gray-600">Attendance accuracy</div>
+                                    <div class="text-lg font-bold text-green-600">Zero</div>
+                                    <div class="text-xs text-gray-600">Timetable Clashes</div>
                                 </div>
                                 <div class="bg-blue-50 rounded-lg p-3">
-                                    <div class="text-lg font-bold text-blue-600">80%</div>
-                                    <div class="text-xs text-gray-600">Time theft reduction</div>
+                                    <div class="text-lg font-bold text-blue-600">Real-time</div>
+                                    <div class="text-xs text-gray-600">Parent Updates</div>
                                 </div>
                                 <div class="bg-purple-50 rounded-lg p-3">
-                                    <div class="text-lg font-bold text-purple-600">$25K</div>
-                                    <div class="text-xs text-gray-600">Annual savings per 100 employees</div>
+                                    <div class="text-lg font-bold text-purple-600">100%</div>
+                                    <div class="text-xs text-gray-600">Syllabus Coverage Tracking</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Payroll & Benefits Module -->
+                <!-- Fee Management Module -->
                 <div class="bg-white rounded-xl border border-gray-200 p-8">
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-yellow-500 rounded-xl flex items-center justify-center mr-4">
-                            <i class="fas fa-money-bill-wave text-white text-2xl"></i>
+                            <i class="fas fa-file-invoice-dollar text-white text-2xl"></i>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold text-gray-900">Payroll & Benefits Management</h3>
-                            <p class="text-gray-600">Automated payroll processing with compliance and tax management</p>
+                            <h3 class="text-2xl font-bold text-gray-900">Fee Management System</h3>
+                            <p class="text-gray-600">Automated fee collection, invoicing, and financial reporting</p>
                         </div>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div>
-                            <h4 class="font-semibold text-gray-900 mb-3">Payroll Features</h4>
+                            <h4 class="font-semibold text-gray-900 mb-3">Fee Operations</h4>
                             <ul class="space-y-2 text-gray-600 text-sm">
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Automated salary calculations</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Tax deductions & compliance</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Overtime & bonus calculations</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Multi-currency support</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Payslip generation & distribution</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Bank integration for direct deposits</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Fee Structure Configuration</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Fee Type Management (Tuition, Transport, etc.)</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Invoice Generation</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Online Fee Payment</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Offline Payment Recording</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Receipt Generation</li>
                             </ul>
                         </div>
                         <div>
-                            <h4 class="font-semibold text-gray-900 mb-3">Benefits & Compliance</h4>
+                            <h4 class="font-semibold text-gray-900 mb-3">Financial Control</h4>
                             <ul class="space-y-2 text-gray-600 text-sm">
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Benefits administration</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Insurance management</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Tax compliance (multiple countries)</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Statutory reporting</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Provident fund management</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Year-end tax processing</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Due Fee Reports</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Discount/Scholarship Management</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Fine/Late Fee Calculation</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Daily Collection Reports</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Expense Management</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Staff Payroll Integration</li>
                             </ul>
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-3">Business Value</h4>
                             <div class="space-y-3">
                                 <div class="bg-yellow-50 rounded-lg p-3">
-                                    <div class="text-lg font-bold text-yellow-600">99.9%</div>
-                                    <div class="text-xs text-gray-600">Payroll accuracy</div>
+                                    <div class="text-lg font-bold text-yellow-600">100%</div>
+                                    <div class="text-xs text-gray-600">Transparency</div>
                                 </div>
                                 <div class="bg-green-50 rounded-lg p-3">
-                                    <div class="text-lg font-bold text-green-600">70%</div>
-                                    <div class="text-xs text-gray-600">Processing time reduction</div>
+                                    <div class="text-lg font-bold text-green-600">Faster</div>
+                                    <div class="text-xs text-gray-600">Collections</div>
                                 </div>
                                 <div class="bg-blue-50 rounded-lg p-3">
-                                    <div class="text-lg font-bold text-blue-600">$40K</div>
-                                    <div class="text-xs text-gray-600">Annual compliance savings</div>
+                                    <div class="text-lg font-bold text-blue-600">Auto</div>
+                                    <div class="text-xs text-gray-600">Reminders</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- AI-Powered Features Module -->
+                <!-- Examination & Results Module -->
                 <div class="bg-white rounded-xl border border-gray-200 p-8">
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-purple-500 rounded-xl flex items-center justify-center mr-4">
-                            <i class="fas fa-robot text-white text-2xl"></i>
+                            <i class="fas fa-clipboard-check text-white text-2xl"></i>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold text-gray-900">AI-Powered Intelligence Module</h3>
-                            <p class="text-gray-600">Machine learning and artificial intelligence for smart HR decisions</p>
+                            <h3 class="text-2xl font-bold text-gray-900">Examination & Grading</h3>
+                            <p class="text-gray-600">Comprehensive exam management and automated result processing</p>
                         </div>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div>
-                            <h4 class="font-semibold text-gray-900 mb-3">AI Automation</h4>
+                            <h4 class="font-semibold text-gray-900 mb-3">Exam Setup</h4>
                             <ul class="space-y-2 text-gray-600 text-sm">
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Intelligent resume screening</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Automated interview scheduling</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Smart leave approval recommendations</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Performance prediction algorithms</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Salary benchmarking AI</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Employee retention predictions</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Exam Scheduling</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Admit Card Generation</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Grade/Marking System Config</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Exam Attendance</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Online Exams</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Question Bank</li>
                             </ul>
                         </div>
                         <div>
-                            <h4 class="font-semibold text-gray-900 mb-3">Analytics & Insights</h4>
+                            <h4 class="font-semibold text-gray-900 mb-3">Results & Reports</h4>
                             <ul class="space-y-2 text-gray-600 text-sm">
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Predictive workforce analytics</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Employee sentiment analysis</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Performance trend identification</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Cost optimization recommendations</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Skill gap analysis</li>
-                                <li><i class="fas fa-check text-green-500 mr-2"></i>Diversity & inclusion metrics</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Marks Entry System</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Automated Tabulation</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Report Card Generation</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Merit List Generation</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Performance Analytics</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Student Progress Tracking</li>
                             </ul>
                         </div>
                         <div>
-                            <h4 class="font-semibold text-gray-900 mb-3">Competitive Advantage</h4>
+                            <h4 class="font-semibold text-gray-900 mb-3">Efficiency</h4>
                             <div class="space-y-3">
                                 <div class="bg-purple-50 rounded-lg p-3">
-                                    <div class="text-lg font-bold text-purple-600">90%</div>
-                                    <div class="text-xs text-gray-600">Faster hiring decisions</div>
+                                    <div class="text-lg font-bold text-purple-600">Instant</div>
+                                    <div class="text-xs text-gray-600">Result Publishing</div>
                                 </div>
                                 <div class="bg-blue-50 rounded-lg p-3">
-                                    <div class="text-lg font-bold text-blue-600">85%</div>
-                                    <div class="text-xs text-gray-600">Improved candidate matching</div>
+                                    <div class="text-lg font-bold text-blue-600">Error-free</div>
+                                    <div class="text-xs text-gray-600">Calculations</div>
                                 </div>
                                 <div class="bg-green-50 rounded-lg p-3">
-                                    <div class="text-lg font-bold text-green-600">45%</div>
-                                    <div class="text-xs text-gray-600">Retention improvement</div>
+                                    <div class="text-lg font-bold text-green-600">Easy</div>
+                                    <div class="text-xs text-gray-600">Analysis</div>
                                 </div>
                             </div>
                         </div>
@@ -545,57 +545,57 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     <div class="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-xl border border-indigo-200 p-6">
                         <div class="w-12 h-12 bg-indigo-500 rounded-lg flex items-center justify-center mb-4">
-                            <i class="fas fa-chart-line text-white"></i>
+                            <i class="fas fa-book text-white"></i>
                         </div>
-                        <h4 class="font-semibold text-gray-900 mb-2">Performance Management</h4>
-                        <p class="text-sm text-gray-600 mb-3">360-degree reviews, KPI tracking, goal management</p>
+                        <h4 class="font-semibold text-gray-900 mb-2">Library Management</h4>
+                        <p class="text-sm text-gray-600 mb-3">Book tracking, issuing, and digital catalog</p>
                         <div class="text-xs text-gray-500">
                             <div class="font-medium">Key Features:</div>
-                            <div>• Review cycles & templates</div>
-                            <div>• Goal setting & tracking</div>
-                            <div>• Peer feedback system</div>
+                            <div>• Book Inventory</div>
+                            <div>• Issue/Return Tracking</div>
+                            <div>• Fine Calculation</div>
                         </div>
                     </div>
 
                     <div class="bg-gradient-to-br from-red-50 to-pink-50 rounded-xl border border-red-200 p-6">
                         <div class="w-12 h-12 bg-red-500 rounded-lg flex items-center justify-center mb-4">
-                            <i class="fas fa-user-plus text-white"></i>
+                            <i class="fas fa-bus text-white"></i>
                         </div>
-                        <h4 class="font-semibold text-gray-900 mb-2">Recruitment & Hiring</h4>
-                        <p class="text-sm text-gray-600 mb-3">AI-powered candidate screening and interview management</p>
+                        <h4 class="font-semibold text-gray-900 mb-2">Transport Management</h4>
+                        <p class="text-sm text-gray-600 mb-3">Route planning, vehicle tracking, and fee mapping</p>
                         <div class="text-xs text-gray-500">
                             <div class="font-medium">Key Features:</div>
-                            <div>• Job posting management</div>
-                            <div>• Candidate pipeline</div>
-                            <div>• Interview scheduling</div>
+                            <div>• Route Management</div>
+                            <div>• Vehicle Tracking</div>
+                            <div>• Driver Details</div>
                         </div>
                     </div>
 
                     <div class="bg-gradient-to-br from-cyan-50 to-teal-50 rounded-xl border border-cyan-200 p-6">
                         <div class="w-12 h-12 bg-cyan-500 rounded-lg flex items-center justify-center mb-4">
-                            <i class="fas fa-tasks text-white"></i>
+                            <i class="fas fa-bed text-white"></i>
                         </div>
-                        <h4 class="font-semibold text-gray-900 mb-2">Task & Project Management</h4>
-                        <p class="text-sm text-gray-600 mb-3">Onboarding tasks, training assignments, project tracking</p>
+                        <h4 class="font-semibold text-gray-900 mb-2">Hostel Management</h4>
+                        <p class="text-sm text-gray-600 mb-3">Room allocation, mess management, and attendance</p>
                         <div class="text-xs text-gray-500">
                             <div class="font-medium">Key Features:</div>
-                            <div>• Onboarding workflows</div>
-                            <div>• Training management</div>
-                            <div>• Task dependencies</div>
+                            <div>• Room Allocation</div>
+                            <div>• Mess Menu</div>
+                            <div>• Visitor Log</div>
                         </div>
                     </div>
 
                     <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl border border-orange-200 p-6">
                         <div class="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center mb-4">
-                            <i class="fas fa-file-invoice-dollar text-white"></i>
+                            <i class="fas fa-bullhorn text-white"></i>
                         </div>
-                        <h4 class="font-semibold text-gray-900 mb-2">Expense Management</h4>
-                        <p class="text-sm text-gray-600 mb-3">Digital expense tracking, approval workflows, reimbursements</p>
+                        <h4 class="font-semibold text-gray-900 mb-2">Communication</h4>
+                        <p class="text-sm text-gray-600 mb-3">SMS, Email, and App notifications for updates</p>
                         <div class="text-xs text-gray-500">
                             <div class="font-medium">Key Features:</div>
-                            <div>• Receipt scanning</div>
-                            <div>• Approval workflows</div>
-                            <div>• Reimbursement processing</div>
+                            <div>• Notice Board</div>
+                            <div>• SMS Alerts</div>
+                            <div>• Event Calendar</div>
                         </div>
                     </div>
                 </div>
@@ -661,14 +661,14 @@
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <ul class="space-y-1 text-sm text-gray-600">
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Employee Management</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Department Setup</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Student & Staff Management</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Class & Section Setup</li>
                             <li><i class="fas fa-check text-green-500 mr-2"></i>Authentication System</li>
                         </ul>
                         <ul class="space-y-1 text-sm text-gray-600">
                             <li><i class="fas fa-check text-green-500 mr-2"></i>Basic Admin Dashboard</li>
                             <li><i class="fas fa-check text-green-500 mr-2"></i>Database Design</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Multi-tenant Architecture</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Role Management</li>
                         </ul>
                     </div>
                 </div>
@@ -680,17 +680,17 @@
                             <span class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white text-sm mr-3">2</span>
                             Core Operations (Months 3-4)
                         </h3>
-                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">HR Modules</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">Academic Modules</span>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <ul class="space-y-1 text-sm text-gray-600">
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Payroll Processing</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Leave Management</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Fee Management</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Timetable Generation</li>
                             <li><i class="fas fa-check text-green-500 mr-2"></i>Attendance Tracking</li>
                         </ul>
                         <ul class="space-y-1 text-sm text-gray-600">
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Performance Reviews</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Employee Portal</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Exam Management</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Parent/Student Portal</li>
                             <li><i class="fas fa-check text-green-500 mr-2"></i>Reporting System</li>
                         </ul>
                     </div>
@@ -701,18 +701,18 @@
                     <div class="flex items-center justify-between mb-4">
                         <h3 class="text-xl font-semibold text-gray-900 flex items-center">
                             <span class="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center text-white text-sm mr-3">3</span>
-                            AI Integration (Months 5-6)
+                            Advanced Features (Months 5-6)
                         </h3>
-                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold">AI Features</span>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold">Extensions</span>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <ul class="space-y-1 text-sm text-gray-600">
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>AI Chatbot</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Resume Analysis</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Predictive Analytics</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Library Management</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Transport System</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Hostel Management</li>
                         </ul>
                         <ul class="space-y-1 text-sm text-gray-600">
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Mobile App</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Mobile App (Android/iOS)</li>
                             <li><i class="fas fa-check text-green-500 mr-2"></i>Advanced Reports</li>
                             <li><i class="fas fa-check text-green-500 mr-2"></i>API Development</li>
                         </ul>
@@ -754,7 +754,7 @@
                         <i class="fas fa-code text-white"></i>
                     </div>
                     <h3 class="font-semibold text-gray-900 mb-2">Development</h3>
-                    <div class="text-2xl font-bold text-blue-600 mb-1">$150K</div>
+                    <div class="text-2xl font-bold text-blue-600 mb-1">$100K</div>
                     <p class="text-sm text-gray-600">7-month development cost</p>
                 </div>
 
@@ -763,7 +763,7 @@
                         <i class="fas fa-cloud text-white"></i>
                     </div>
                     <h3 class="font-semibold text-gray-900 mb-2">Infrastructure</h3>
-                    <div class="text-2xl font-bold text-green-600 mb-1">$25K</div>
+                    <div class="text-2xl font-bold text-green-600 mb-1">$15K</div>
                     <p class="text-sm text-gray-600">Annual hosting & services</p>
                 </div>
 
@@ -772,7 +772,7 @@
                         <i class="fas fa-bullhorn text-white"></i>
                     </div>
                     <h3 class="font-semibold text-gray-900 mb-2">Marketing</h3>
-                    <div class="text-2xl font-bold text-purple-600 mb-1">$75K</div>
+                    <div class="text-2xl font-bold text-purple-600 mb-1">$50K</div>
                     <p class="text-sm text-gray-600">Launch & customer acquisition</p>
                 </div>
 
@@ -781,7 +781,7 @@
                         <i class="fas fa-headset text-white"></i>
                     </div>
                     <h3 class="font-semibold text-gray-900 mb-2">Support</h3>
-                    <div class="text-2xl font-bold text-yellow-600 mb-1">$50K</div>
+                    <div class="text-2xl font-bold text-yellow-600 mb-1">$30K</div>
                     <p class="text-sm text-gray-600">Annual maintenance & support</p>
                 </div>
             </div>
@@ -839,3 +839,4 @@
     </script>
 </body>
 </html>
+    
